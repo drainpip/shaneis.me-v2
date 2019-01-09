@@ -1,21 +1,69 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import Image from '../components/image'
 import SEO from '../components/seo'
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+const IndexPage = ({ data }) => {
+  const postList = data.allMarkdownRemark
+  return (
+    <Layout>
+      <SEO title="Home" keywords={[`shane duff`, `coding`, `fiction`]} />
+      <h1>Greetings</h1>
+      <p>
+        I've always had grandiose plans for a personal website that have never
+        come to fruition. Instead my creative energy goes into work or fanciful
+        things like writing stories for an audience of one.
+      </p>
+      <p>
+        Something about me: I'm pretty good at my three C's: Cars, Computers and
+        Canines. I have been an ASE Parts Specialist (P1, P2 and P4) so no
+        mechanic can cheat me. I have been tinkering with Computer hardware and
+        programming since the early 90's. I also spent a few years learning
+        about Canine behavior including six months of direct work with a senior
+        trainer - I did this more for personal learning than starting a
+        business, but I'm certainly open to such things.
+      </p>
+
+      <h2>More?</h2>
+
+      <p>
+        I have a <a href="https://github.com/drainpip">Github</a> profile for
+        you to check out, my work history over on{' '}
+        <a href="https://www.linkedin.com/in/shaneduff/">LinkedIn</a>, and if
+        you'd like to see me{' '}
+        <a href="http://twitter.com/drainpip">unfiltered</a> have at it.
+      </p>
+      {postList.edges.map(({ node }, i) => (
+        <Link to={node.fields.slug}>
+          <div>
+            <h3>{node.frontmatter.title}</h3>
+            <span>{node.frontmatter.date}</span>
+            <p>{node.excerpt}</p>
+          </div>
+        </Link>
+      ))}
+    </Layout>
+  )
+}
 
 export default IndexPage
+
+export const listQuery = graphql`
+  query ListQuery {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          excerpt(pruneLength: 250)
+          frontmatter {
+            date(formatString: "MMMM Do YYYY")
+            title
+          }
+        }
+      }
+    }
+  }
+`
