@@ -1,8 +1,26 @@
+/** @jsx jsx */
 import React from 'react'
 import PropTypes from 'prop-types'
-import { StaticQuery, graphql } from 'gatsby'
+import { css, jsx } from '@emotion/core'
+import { StaticQuery, Link, graphql } from 'gatsby'
 
 import Header from './header'
+import GlobalStyles from './global-styles'
+
+const mainSection = css`
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em 1.5em;
+`
+
+const footer = css`
+  border-top: 1px solid #555;
+  margin-top: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+`
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -17,15 +35,15 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <React.Fragment>
+        <GlobalStyles />
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div>
+        <section css={mainSection}>
           {children}
-          <footer>
-            &copy; {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <footer css={footer}>
+            &copy; {new Date().getFullYear()} &bull;{' '}
+            <Link to="/colophon">Colophon</Link>
           </footer>
-        </div>
+        </section>
       </React.Fragment>
     )}
   />

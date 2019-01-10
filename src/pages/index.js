@@ -9,12 +9,25 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Home" keywords={[`shane duff`, `coding`, `fiction`]} />
-      <h1>Greetings</h1>
+      <h2>Greetings</h2>
       <p>
         I've always had grandiose plans for a personal website that have never
         come to fruition. Instead my creative energy goes into work or fanciful
         things like writing stories for an audience of one.
       </p>
+
+      {postList.edges.map(({ node }, i) => (
+        <Link to={node.fields.slug} key={node.fields.slug}>
+          <div>
+            <h3>{node.frontmatter.title}</h3>
+            <span>{node.frontmatter.date}</span>
+            <p>{node.frontmatter.description}</p>
+          </div>
+        </Link>
+      ))}
+
+      <h4>More?</h4>
+
       <p>
         Something about me: I'm pretty good at my three C's: Cars, Computers and
         Canines. I have been an ASE Parts Specialist (P1, P2 and P4) so no
@@ -25,8 +38,6 @@ const IndexPage = ({ data }) => {
         business, but I'm certainly open to such things.
       </p>
 
-      <h2>More?</h2>
-
       <p>
         I have a <a href="https://github.com/drainpip">Github</a> profile for
         you to check out, my work history over on{' '}
@@ -34,15 +45,6 @@ const IndexPage = ({ data }) => {
         you'd like to see me{' '}
         <a href="http://twitter.com/drainpip">unfiltered</a> have at it.
       </p>
-      {postList.edges.map(({ node }, i) => (
-        <Link to={node.fields.slug}>
-          <div>
-            <h3>{node.frontmatter.title}</h3>
-            <span>{node.frontmatter.date}</span>
-            <p>{node.excerpt}</p>
-          </div>
-        </Link>
-      ))}
     </Layout>
   )
 }
@@ -57,9 +59,9 @@ export const listQuery = graphql`
           fields {
             slug
           }
-          excerpt(pruneLength: 250)
           frontmatter {
             date(formatString: "MMMM Do YYYY")
+            description
             title
           }
         }
