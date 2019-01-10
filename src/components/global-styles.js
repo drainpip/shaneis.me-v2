@@ -35,8 +35,12 @@ const globalCSS = css`
     margin-top: 0;
   }
 
-  p {
+  p,
+  li {
     font-size: 1.15em;
+  }
+
+  p {
     margin-bottom: 2em;
   }
 

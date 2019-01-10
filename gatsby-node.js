@@ -34,13 +34,20 @@ exports.createPages = ({ actions, graphql }) => {
           return reject(result.errors)
         }
 
+        const posts = result.data.allMarkdownRemark.edges
         const blogTemplate = path.resolve('./src/templates/blog-post.js')
-        result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        posts.forEach(({ node }, index) => {
+          const previous =
+            index === posts.length - 1 ? null : posts[index + 1].node
+          const next = index === 0 ? null : posts[index - 1].node
+
           createPage({
             path: node.fields.slug,
             component: blogTemplate,
             context: {
               slug: node.fields.slug,
+              previous,
+              next,
             }, // additional data can be passed via context
           })
         })
