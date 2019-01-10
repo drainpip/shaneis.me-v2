@@ -8,8 +8,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Shane is me`,
+        short_name: `shaneis.me`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#555`,
