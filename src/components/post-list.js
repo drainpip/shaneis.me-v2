@@ -5,12 +5,17 @@ import { StaticQuery, Link, graphql } from 'gatsby'
 
 const listItem = css`
   border: 1px solid #555;
+
+  & + & {
+    margin-top: 2em;
+  }
 `
 
 const listLink = css`
   border-bottom: 0;
   display: inline-block;
   padding: 2em 1.5em;
+  width: 100%;
 
   > h3 {
     margin-top: 0;
