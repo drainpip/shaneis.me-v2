@@ -1,10 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Shane is me`,
-    description: `A site about things.`,
     author: `@drainpip`,
+    description: `A site about things.`,
+    siteUrl: `https://shaneis.me`,
+    title: `Shane is me`,
   },
   plugins: [
+    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
