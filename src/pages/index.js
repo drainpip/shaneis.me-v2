@@ -7,7 +7,6 @@ import SEO from '../components/seo'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`shane duff`, `coding`, `fiction`]} />
-    <h2>Greetings</h2>
     <p>
       I've always had grandiose plans for a personal website that have never
       come to fruition. Instead my creative energy goes into work or fanciful

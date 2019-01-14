@@ -3,6 +3,10 @@ import React from 'react'
 import { css, jsx } from '@emotion/core'
 import { StaticQuery, Link, graphql } from 'gatsby'
 
+const listHeading = css`
+  border-bottom: 2px solid #555;
+`
+
 const listItem = css`
   border: 1px solid #555;
 
@@ -32,6 +36,7 @@ const listLink = css`
 
 const List = ({ posts }) => (
   <React.Fragment>
+    <h2 css={listHeading}>Latest Posts</h2>
     {posts.edges.map(({ node }, i) => (
       <div css={listItem} key={node.fields.slug}>
         <Link to={node.fields.slug} css={listLink}>
