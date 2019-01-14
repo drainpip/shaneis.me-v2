@@ -3,6 +3,7 @@ title: 'Hello World'
 description: Can someone write more if they make it harder on themselves to write?
 date: '2019-01-10'
 image: ''
+tags: ['meta', 'personal']
 ---
 
 I believe I created my first personal website on [Geocities](http://www.oocities.org/) perhaps around 1995. The usefulness of my personal site to the whole of humanity has always been quite moot. I would like to change this in some very small and insignificant way.
