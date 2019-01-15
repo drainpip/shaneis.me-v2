@@ -32,7 +32,7 @@ const listLink = css`
 const List = ({ posts }) => (
   <React.Fragment>
     <h2 css={listHeading}>Latest Posts</h2>
-    {posts.edges.map(({ node }, i) => (
+    {posts.edges.map(({ node }) => (
       <Link to={node.fields.slug} css={listLink} key={node.fields.slug}>
         <h3>{node.frontmatter.title}</h3>
         <span>{node.frontmatter.date}</span>
