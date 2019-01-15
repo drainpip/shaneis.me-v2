@@ -16,6 +16,7 @@ const PostIndex = () => (
               frontmatter {
                 date(formatString: "MMMM Do YYYY")
                 description
+                tags
                 title
               }
             }
@@ -23,7 +24,11 @@ const PostIndex = () => (
         }
       }
     `}
-    render={data => <PostList posts={data.allMarkdownRemark} />}
+    render={({ allMarkdownRemark }) => (
+      <React.Fragment>
+        <PostList posts={allMarkdownRemark} />
+      </React.Fragment>
+    )}
   />
 )
 

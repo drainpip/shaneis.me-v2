@@ -35,8 +35,16 @@ const BlogPost = ({ data, pageContext }) => {
     <Layout>
       <SEO title={post.frontmatter.title} description={post.description} />
       <h2>{post.frontmatter.title}</h2>
-      <p>{post.frontmatter.date}</p>
+      <p css={textRight}>{post.frontmatter.date}</p>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <h4>Posts Like This</h4>
+      <ul>
+        {post.frontmatter.tags.map(tag => (
+          <li key={tag}>
+            <Link to={`/blog/${tag}`}>{tag}</Link>
+          </li>
+        ))}
+      </ul>
       {(previous || next) && (
         <React.Fragment>
           <hr />
@@ -71,6 +79,7 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         description
+        tags
         title
       }
     }
