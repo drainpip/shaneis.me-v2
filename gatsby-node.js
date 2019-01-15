@@ -23,6 +23,7 @@ exports.createPages = ({ actions, graphql }) => {
                 }
                 frontmatter {
                   title
+                  tags
                 }
               }
             }
@@ -36,10 +37,19 @@ exports.createPages = ({ actions, graphql }) => {
 
         const posts = result.data.allMarkdownRemark.edges
         const blogTemplate = path.resolve('./src/templates/blog-post.js')
+        const tagTemplate = path.resolve('./src/templates/tags.js')
+        let tags = []
+
         posts.forEach(({ node }, index) => {
           const previous =
             index === posts.length - 1 ? null : posts[index + 1].node
           const next = index === 0 ? null : posts[index - 1].node
+
+          if (node.frontmatter.tags.length) {
+            node.frontmatter.tags.forEach(tag => {
+              if (tags.indexOf(tag) === -1) tags.push(tag)
+            })
+          }
 
           createPage({
             path: node.fields.slug,
@@ -51,6 +61,17 @@ exports.createPages = ({ actions, graphql }) => {
             }, // additional data can be passed via context
           })
         })
+
+        tags.forEach(tag => {
+          createPage({
+            path: `/blog/${tag}`,
+            component: tagTemplate,
+            context: {
+              tag,
+            },
+          })
+        })
+
         return
       })
     )

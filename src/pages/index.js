@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import PostList from '../components/post-list'
+import PostIndex from '../components/post-index'
 import SEO from '../components/seo'
 
 const IndexPage = () => (
@@ -13,7 +13,7 @@ const IndexPage = () => (
       things like writing stories for an audience of one.
     </p>
 
-    <PostList />
+    <PostIndex />
 
     <h4>More?</h4>
 

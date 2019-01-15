@@ -1,7 +1,12 @@
 /** @jsx jsx */
 import React from 'react'
+import PropTypes from 'prop-types'
 import { css, jsx } from '@emotion/core'
-import { StaticQuery, Link, graphql } from 'gatsby'
+import { Link } from 'gatsby'
+
+const list = css`
+  margin-bottom: 2em;
+`
 
 const listHeading = css`
   border-bottom: 2px solid #555;
@@ -29,41 +34,39 @@ const listLink = css`
   }
 `
 
-const List = ({ posts }) => (
+const PostList = ({ posts, heading }) => (
   <React.Fragment>
-    <h2 css={listHeading}>Latest Posts</h2>
-    {posts.edges.map(({ node }) => (
-      <Link to={node.fields.slug} css={listLink} key={node.fields.slug}>
-        <h3>{node.frontmatter.title}</h3>
-        <span>{node.frontmatter.date}</span>
-        <p>{node.frontmatter.description}</p>
-      </Link>
-    ))}
+    <h2 css={listHeading}>{heading}</h2>
+    <div css={list}>
+      {posts.edges.map(({ node }) => (
+        <Link to={node.fields.slug} css={listLink} key={node.fields.slug}>
+          <h3>{node.frontmatter.title}</h3>
+          <span>{node.frontmatter.date}</span>
+          <p>{node.frontmatter.description}</p>
+        </Link>
+      ))}
+    </div>
   </React.Fragment>
 )
 
-const PostList = () => (
-  <StaticQuery
-    query={graphql`
-      query ListQuery {
-        allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              frontmatter {
-                date(formatString: "MMMM Do YYYY")
-                description
-                title
-              }
-            }
-          }
-        }
-      }
-    `}
-    render={data => <List posts={data.allMarkdownRemark} />}
-  />
-)
+PostList.defaultProps = {
+  heading: `Latest Posts`,
+}
+
+PostList.PropTypes = {
+  heading: PropTypes.string,
+  posts: PropTypes.shape({
+    edges: PropTypes.arrayOf(
+      PropTypes.shape({
+        node: PropTypes.shape({
+          frontmatter: PropTypes.shape({
+            path: PropTypes.string.isRequired,
+            title: PropTypes.string.isRequired,
+          }),
+        }),
+      }).isRequired
+    ),
+  }),
+}
 
 export default PostList

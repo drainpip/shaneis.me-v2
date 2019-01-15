@@ -1,13 +1,13 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import PostList from '../components/post-list'
+import PostIndex from '../components/post-index'
 import SEO from '../components/seo'
 
 const Blog = () => (
   <Layout>
     <SEO title="Blog Index" />
-    <PostList />
+    <PostIndex />
   </Layout>
 )
 
