@@ -6,17 +6,8 @@ import { StaticQuery, Link, graphql } from 'gatsby'
 const listHeading = css`
   border-bottom: 2px solid #555;
 `
-
-const listItem = css`
-  border: 1px solid #555;
-
-  & + & {
-    margin-top: 2em;
-  }
-`
-
 const listLink = css`
-  border-bottom: 0;
+  border: 1px solid;
   display: inline-block;
   padding: 2em 1.5em;
   width: 100%;
@@ -32,19 +23,21 @@ const listLink = css`
   &:hover {
     background-color: rgba(57, 204, 204, 0.1);
   }
+
+  & + & {
+    margin-top: 2em;
+  }
 `
 
 const List = ({ posts }) => (
   <React.Fragment>
     <h2 css={listHeading}>Latest Posts</h2>
     {posts.edges.map(({ node }, i) => (
-      <div css={listItem} key={node.fields.slug}>
-        <Link to={node.fields.slug} css={listLink}>
-          <h3>{node.frontmatter.title}</h3>
-          <span>{node.frontmatter.date}</span>
-          <p>{node.frontmatter.description}</p>
-        </Link>
-      </div>
+      <Link to={node.fields.slug} css={listLink} key={node.fields.slug}>
+        <h3>{node.frontmatter.title}</h3>
+        <span>{node.frontmatter.date}</span>
+        <p>{node.frontmatter.description}</p>
+      </Link>
     ))}
   </React.Fragment>
 )
