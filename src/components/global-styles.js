@@ -102,6 +102,21 @@ const globalCSS = css`
   ul {
     margin-bottom: 2em;
   }
+
+  /* Override for prismjs line numbers styles */
+  .line-numbers .line-numbers-rows {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0.8em;
+  }
+
+  /* Override for prismjs inline code styles */
+  :not(pre) > code.language-text {
+    background-color: #555;
+    border-radius: 0;
+    color: #fff;
+    padding: 0.1em 0.2em;
+  }
 `
 
 const GlobalStyles = () => <Global styles={globalCSS} />
