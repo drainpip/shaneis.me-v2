@@ -37,7 +37,7 @@ const globalCSS = css`
 
   p,
   li {
-    font-size: 1.15em;
+    font-size: 1.15rem;
   }
 
   p {
@@ -101,6 +101,11 @@ const globalCSS = css`
   ol,
   ul {
     margin-bottom: 2em;
+  }
+
+  li > ul {
+    margin-top: -1em;
+    margin-bottom: 1em;
   }
 
   /* Override for prismjs line numbers styles */
