@@ -127,6 +127,11 @@ const globalCSS = css`
   .gatsby-highlight {
     margin-bottom: 2em;
   }
+
+  /* Override underline for auto-anchor headings */
+  a.anchor {
+    border-bottom: 0;
+  }
 `
 
 const GlobalStyles = () => <Global styles={globalCSS} />
