@@ -53,14 +53,18 @@ PostList.defaultProps = {
   heading: `Latest Posts`,
 }
 
-PostList.PropTypes = {
+PostList.propTypes = {
   heading: PropTypes.string,
   posts: PropTypes.shape({
     edges: PropTypes.arrayOf(
       PropTypes.shape({
         node: PropTypes.shape({
+          fields: PropTypes.shape({
+            slug: PropTypes.string.isRequired,
+          }),
           frontmatter: PropTypes.shape({
-            path: PropTypes.string.isRequired,
+            date: PropTypes.string.isRequired,
+            description: PropTypes.string.isRequired,
             title: PropTypes.string.isRequired,
           }),
         }),
