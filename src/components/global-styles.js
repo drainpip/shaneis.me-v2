@@ -117,6 +117,11 @@ const globalCSS = css`
     color: #fff;
     padding: 0.1em 0.2em;
   }
+
+  /* Add bottom margin to this for spacing under the code highlighted <pre/> */
+  .gatsby-highlight {
+    margin-bottom: 2em;
+  }
 `
 
 const GlobalStyles = () => <Global styles={globalCSS} />
