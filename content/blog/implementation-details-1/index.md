@@ -200,11 +200,11 @@ Here’s approximately what your `scripts` block should look like:
 <!-- CODE BLOCK - END -->
 <!-- prettier-ignore-end -->
 
-Line’s 9 & 10 above are the new commands you’ve just added to your project. If you’re currently running develop, cancel out of it now. Now it’s time to `yarn deploy`! You should see the Gatsby build start and complete, then the files get pushed up to Firebase.
+Line’s 9 & 10 above are the new commands you’ve just added to your project. If you’re currently running develop, cancel out of it. Now it’s time to `yarn deploy`! You should see the Gatsby build start and complete, then the files get pushed up to Firebase.
 
 You can now view your code by going to:
 
-`your-project-ID.firebaseapp.com`.
+[your-project-ID.firebaseapp.com](https://your-project-id.firebaseapp.com).
 
 Also, if you’re ready, you can [connect a custom domain](https://support.google.com/firebase/answer/9137747?hl=en) by following the instructions at the Firebase Console.
 
