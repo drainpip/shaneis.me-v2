@@ -51,15 +51,23 @@ const BlogPost = ({ data, pageContext }) => {
           <ul css={prevNextList}>
             {previous && (
               <li>
-                <Link to={previous.fields.slug} rel="prev">
-                  ← {previous.frontmatter.title}
+                <Link
+                  to={previous.fields.slug}
+                  rel="prev"
+                  title={previous.frontmatter.title}
+                >
+                  ← previous
                 </Link>
               </li>
             )}
             {next && (
               <li css={textRight}>
-                <Link to={next.fields.slug} rel="next">
-                  {next.frontmatter.title} →
+                <Link
+                  to={next.fields.slug}
+                  rel="next"
+                  title={next.frontmatter.title}
+                >
+                  next →
                 </Link>
               </li>
             )}
