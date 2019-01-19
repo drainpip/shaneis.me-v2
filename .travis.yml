@@ -1,9 +1,22 @@
-anguage: node_js
+language: node_js
 node_js:
- — “7”
+  - '8'
+cache: yarn
+addons:
+  apt:
+    packages:
+      - g++-4.8
+    sources:
+      - ubuntu-toolchain-r-test
+env: CXX=g++-4.8
+branches:
+  only:
+    - master
+before_script:
+  - 'yarn global add firebase-tools'
+  - 'yarn global add gatsby'
 script:
- — echo “Deploy!!”
-install:
- — npm install -g firebase-tools
+  - 'yarn test'
+  - 'yarn build:prod'
 after_success:
- — firebase deploy — project shane-is-me — token $FIREBASE_TOKEN.
+  - 'firebase deploy --token=${FIREBASE_TOKEN}'

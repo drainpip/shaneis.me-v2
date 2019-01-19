@@ -33,8 +33,9 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
-    "predeploy": "yarn build",
+    "test": "echo \"Warning: no test specified\" && exit 0",
+    "build:prod": "yarn build -- --prefix-links",
+    "predeploy": "yarn build -- --prefix-links",
     "deploy": "firebase deploy"
   },
   "devDependencies": {
