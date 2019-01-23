@@ -22,6 +22,7 @@ exports.createPages = ({ actions, graphql }) => {
                   slug
                 }
                 frontmatter {
+                  seriesSlug
                   title
                   tags
                 }
@@ -55,6 +56,7 @@ exports.createPages = ({ actions, graphql }) => {
             path: node.fields.slug,
             component: blogTemplate,
             context: {
+              seriesSlug: node.frontmatter.seriesSlug,
               slug: node.fields.slug,
               previous,
               next,

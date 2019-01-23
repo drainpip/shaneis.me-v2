@@ -7,6 +7,8 @@ import { css, jsx } from '@emotion/core'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
+import BlogSeries from './blog-series'
+
 const prevNextList = css`
   display: flex;
   list-style: none;
@@ -36,6 +38,12 @@ const BlogPost = ({ data, pageContext }) => {
       <SEO title={post.frontmatter.title} description={post.description} />
       <h2>{post.frontmatter.title}</h2>
       <p css={textRight}>{post.frontmatter.date}</p>
+      {post.frontmatter.isSeries && (
+        <BlogSeries
+          currentPost={pageContext.slug}
+          series={data.allMarkdownRemark.edges}
+        />
+      )}
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
       <h4>Posts Like This</h4>
       <ul>
@@ -81,14 +89,34 @@ const BlogPost = ({ data, pageContext }) => {
 export default BlogPost
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
+  query BlogPostBySlug($slug: String!, $seriesSlug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         description
+        isSeries
         tags
         title
+      }
+    }
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: ASC }
+      filter: { frontmatter: { seriesSlug: { eq: $seriesSlug } } }
+    ) {
+      totalCount
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            description
+            seriesSlug
+            seriesBlurb
+            seriesEnded
+          }
+        }
       }
     }
   }
