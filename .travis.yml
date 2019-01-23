@@ -19,5 +19,4 @@ script:
   - 'yarn test'
   - 'yarn build:prod'
 after_success:
-  - 'firebase deploy --token=${FIREBASE_TOKEN}'
-    if: type NOT IN (pull_request)
+  - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && firebase deploy --token=${FIREBASE_TOKEN}'
