@@ -2,11 +2,10 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 const BlogSeries = ({ currentPost, series }) => {
-  const blurb = series[0].node.frontmatter.seriesBlurb
-  const seriesEnded = series[0].node.frontmatter.seriesEnded
+  const seriesData = series[0].node.frontmatter
   return (
     <React.Fragment>
-      <p>{blurb}</p>
+      <p>{seriesData.seriesBlurb}</p>
       <h4>Series</h4>
       <ol>
         {series.map(({ node }) => (
@@ -18,7 +17,7 @@ const BlogSeries = ({ currentPost, series }) => {
             )}
           </li>
         ))}
-        {!seriesEnded && <li>More Coming Soon...</li>}
+        {!seriesData.seriesEnded && <li>More Coming Soon...</li>}
       </ol>
     </React.Fragment>
   )
