@@ -20,4 +20,4 @@ script:
   - 'yarn build:prod'
 after_success:
   - 'firebase deploy --token=${FIREBASE_TOKEN}'
-    if: branch = master
+    if: type NOT IN (pull_request)
