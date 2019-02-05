@@ -33,7 +33,7 @@ I wanted a place where I could write my thoughts down and share it with whomever
 
 Gatsby has risen in popularity for good reason recently. Out of the box you essentially get a super crazy fast static site that’s the best of both worlds (static assets & snappy client-side JavaScript). This is something that would have taken me hours or days to get up and running, if at all. Now I just run a command and build within the walls Gatsby provides. For me, this was the perfect balance between building something myself and ensuring I was participating in the open web for the whole web without any effort on my part.
 
-I started with the default theme and built my way toward what I wanted from there. The other starters or examples didn’t fit my needs **precisely**. This is the path I followed...
+I started with the default starter and built my way toward what I wanted from there. The other starters or examples didn’t fit my needs **precisely**. This is the path I followed...
 
 #### Installation & Front End Tour
 
@@ -126,7 +126,7 @@ There are many other hosts, including some custom-made for static sites. Those m
 
 #### Our First Deploy
 
-Getting all this set up for the first time has a technical hurdles to overcome. However once we have it set up, pushing a new deploy up to the web is as simple as typing `yarn deploy` in the console!
+Getting all this set up for the first time has some technical hurdles to overcome. However once we have it set up, pushing a new deploy up to the web is as simple as typing `yarn deploy` in the console!
 
 I sometimes like to make a simple list when I’ve got a bunch of stuff to do. Here’s all we need to do in order:
 
@@ -138,9 +138,9 @@ I sometimes like to make a simple list when I’ve got a bunch of stuff to do. H
 6. Add appropriate commands to `package.json`
 7. Deploy!
 
-When you sign into the [Firebase Console](https://console.firebase.google.com/) you’ll see a link to “Add project”. You’ll need to name the project, as you type keep an eye on the “Project ID”. You’ll need this for certain things in the future. I tend to work with a name until it no longer has a hash string appended to it — in other words it must be unique to be without that hash! Select the location of your analytics & Cloud Firestore if you don’t want the defaults. Check the boxes as needed at the bottom and “Create Project”.
+When you sign into the [Firebase Console](https://console.firebase.google.com/) you’ll see a link to “Add project”. Name the project, as you type keep an eye on the “Project ID” you’ll need this for certain things in the future. I tend to work with a name until it no longer has a hash string appended to it — in other words it must be unique on Firebase! Select the location of your analytics & Cloud Firestore if you don’t want the defaults. Check the boxes as needed at the bottom and “Create Project”.
 
-Once that’s done, go into your project and you’ll be greeted by your project’s dashboard. You’ll see all the fun stuff I mentioned earlier, but for now let’s just click on hosting. Then on to “Get Started” and read through the instructions to get `firebase-tools` installed.
+Once that’s done, go into your project and you’ll be greeted by your project’s dashboard. You’ll see all the fun stuff I mentioned earlier, but for now let’s just click on hosting, then on to “Get Started” and read through the instructions to get `firebase-tools` installed.
 
 Here it is in one place:
 
@@ -200,7 +200,7 @@ Here’s approximately what your `scripts` block should look like:
 <!-- CODE BLOCK - END -->
 <!-- prettier-ignore-end -->
 
-Line’s 9 & 10 above are the new commands you’ve just added to your project. If you’re currently running develop, cancel out of it. Now it’s time to `yarn deploy`! You should see the Gatsby build start and complete, then the files get pushed up to Firebase.
+Line’s 9 & 10 above are the new commands you’ve just added to your project. If you’re currently running develop, `ctrl+c` out of it. Now it’s time to `yarn deploy`! You should see the Gatsby build start and complete, then the files get pushed up to Firebase.
 
 You can now view your code by going to:
 
