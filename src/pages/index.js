@@ -18,8 +18,8 @@ const IndexPage = () => (
     <h4>More?</h4>
 
     <p>
-      Something about me: I'm pretty good at my three C's: Cars, Computers and
-      Canines. I have been an ASE Parts Specialist (P1, P2 and P4) so no
+      Something about me: I'm pretty good at my three C's: Cars, Computers, and
+      Canines. I have been an ASE Parts Specialist (P1, P2, and P4) so no
       mechanic can cheat me. I have been tinkering with Computer hardware and
       programming since the early 90's. I also spent a few years learning about
       Canine behavior including six months of direct work with a senior trainer
