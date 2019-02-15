@@ -6,6 +6,7 @@ module.exports = {
     title: `Shane is me`,
   },
   plugins: [
+    `gatsby-plugin-emotion`,
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
