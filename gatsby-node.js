@@ -14,7 +14,6 @@ exports.createPages = ({ actions, graphql }) => {
         {
           allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
-            limit: 1000
           ) {
             edges {
               node {
@@ -83,7 +82,7 @@ exports.createPages = ({ actions, graphql }) => {
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
+    const slug = createFilePath({ node, getNode })
     createNodeField({
       node,
       name: `slug`,
