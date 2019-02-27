@@ -14,7 +14,6 @@ exports.createPages = ({ actions, graphql }) => {
         {
           allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
-            limit: 1000
           ) {
             edges {
               node {
@@ -22,6 +21,7 @@ exports.createPages = ({ actions, graphql }) => {
                   slug
                 }
                 frontmatter {
+                  seriesSlug
                   title
                   tags
                 }
@@ -55,6 +55,7 @@ exports.createPages = ({ actions, graphql }) => {
             path: node.fields.slug,
             component: blogTemplate,
             context: {
+              seriesSlug: node.frontmatter.seriesSlug,
               slug: node.fields.slug,
               previous,
               next,
@@ -81,7 +82,7 @@ exports.createPages = ({ actions, graphql }) => {
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
+    const slug = createFilePath({ node, getNode })
     createNodeField({
       node,
       name: `slug`,

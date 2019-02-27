@@ -1,18 +1,14 @@
 ---
 title: 'Implementation Details: Part One'
-description: A multi-part series. Getting set up with Gatsby and hosted on Firebase.
+description: 'Getting set up with Gatsby and hosted on Firebase.'
 date: '2019-01-16'
 image: ''
+isSeries: true
+seriesSlug: 'implementation-details'
+seriesBlurb: 'I tend to learn by doing, like many, so as the winds of change started moving toward a revival of personal websites/blogs I decided to hop on the bandwagon and learn about the new hotness while I was at it. Oh, and I suppose I wanted to write more as a personal goal.'
+seriesEnded: false
 tags: ['code', 'meta']
 ---
-
-I tend to learn by doing, like many, so as the winds of change started moving toward a revival of personal websites/blogs I decided to hop on the bandwagon and learn about the new hotness while I was at it. Oh, and I suppose I wanted to write more as a personal goal.
-
-#### Series
-
-- Part One: Getting set up and deployed to Firebase (this page)
-- Part Two: Adding a blog (Coming Soon...)
-- To be continued...
 
 #### Assumptions:
 
