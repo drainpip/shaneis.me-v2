@@ -42,9 +42,16 @@ const BlogPost = ({ data, pageContext }) => {
         <BlogSeries
           currentPost={pageContext.slug}
           series={data.allMarkdownRemark.edges}
+          showBlurb
         />
       )}
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      {post.frontmatter.isSeries && (
+        <BlogSeries
+          currentPost={pageContext.slug}
+          series={data.allMarkdownRemark.edges}
+        />
+      )}
       <h4>Posts Like This</h4>
       <ul>
         {post.frontmatter.tags.map(tag => (
