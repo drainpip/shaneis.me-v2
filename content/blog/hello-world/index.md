@@ -1,6 +1,6 @@
 ---
 title: 'Hello World'
-description: Can someone write more if they make it harder on themselves?
+description: 'Can someone write more if they make it harder on themselves?'
 date: '2019-01-10'
 image: ''
 tags: ['meta', 'personal']

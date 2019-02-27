@@ -1,6 +1,6 @@
 ---
 title: 'Implementation Details: Part One'
-description: Getting set up with Gatsby and hosted on Firebase.
+description: 'Getting set up with Gatsby and hosted on Firebase.'
 date: '2019-01-16'
 image: ''
 isSeries: true
