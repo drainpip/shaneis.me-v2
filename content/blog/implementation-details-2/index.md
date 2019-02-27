@@ -136,13 +136,13 @@ Example query (remember, if you’re stuck, use `Ctrl + Space` to bring up your 
 
 This will show you the titles and date of each post! Feel free to play around with all the data that you now have available.
 
-What we need to do now is take this data and tell Gatsby that we want to build a new page for each one of those blog posts. This means we need a new template, and we need to mess with `gatsby-node.js`. I'm going to share exactly what I did at this phase, but I'm giving you some homework to read some docs.
+What we need to do now is take this data and tell Gatsby that we want to build a new page for each one of those blog posts. This means we need a new template, and we need to mess with `gatsby-node.js`. I’m going to share exactly what I did at this phase, but I’m giving you some homework to read some docs.
 
-- [Gatsby Node API](https://www.gatsbyjs.org/docs/node-apis/) - We'll use this to create pages based on GraphQL data, and pass it down to React.
+- [Gatsby Node API](https://www.gatsbyjs.org/docs/node-apis/) - We’ll use this to create pages based on GraphQL data, and pass it down to React.
 - [Gatsby Actions](https://www.gatsbyjs.org/docs/actions/) - Actual actions used to create pages and create data fields.
-- [gatsby-source-filesystem](https://www.gatsbyjs.org/packages/gatsby-source-filesystem/) - We'll use this to create slugs.
+- [gatsby-source-filesystem](https://www.gatsbyjs.org/packages/gatsby-source-filesystem/) - We’ll use this to create slugs.
 
-Let's great a new template:
+Let’s great a new template:
 
 `./src/templates/blog-post.js`
 
@@ -193,7 +193,7 @@ export const pageQuery = graphql`
 
 Note: There are some assumptions in this code that you still have `<Layout />` and `<SEO />` hanging around. If not, feel free to delete that part.
 
-Let's go into `gatsby-node.js`, create the pages, and use this new template!
+Let’s go into `gatsby-node.js`, create the pages, and use this new template!
 
 <!-- prettier-ignore-start -->
 <!-- CODE BLOCK - START -->
@@ -269,8 +269,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 <!-- CODE BLOCK - END -->
 <!-- prettier-ignore-end -->
 
-Note: Any time you make changes to Gatsby's config you'll need to restart `gatsby develop` to see the results.
+Note: Any time you make changes to Gatsby’s config you’ll need to restart `gatsby develop` to see the results.
 
-When the site is up and running, you'll be able to go to [localhost:8000/hello-world/](http://localhost:8000/hello-world/) and see your first blog post in action!
+When the site is up and running, you’ll be able to go to [localhost:8000/hello-world/](http://localhost:8000/hello-world/) and see your first blog post in action!
 
-All you need to do to get a new blog post up and running is add a new folder with `index.md` inside. Follow the "frontmatter" format, and you'll be off to the races. In the next installment, we will get all the tiny details in place that make a modern blog easier to read - see you there!
+All you need to do to get a new blog post up and running is add a new folder with `index.md` inside. Follow the “frontmatter” format, and you’ll be off to the races. In the next installment, we will get all the tiny details in place that make a modern blog easier to read — see you there!
