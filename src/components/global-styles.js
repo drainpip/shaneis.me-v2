@@ -85,10 +85,7 @@ const globalCSS = css`
   }
 
   a {
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
     color: #0074d9;
-    text-decoration: none;
 
     &:visited {
       color: #b10dc9;
