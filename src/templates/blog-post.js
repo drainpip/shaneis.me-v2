@@ -5,25 +5,10 @@ import { graphql, Link } from 'gatsby'
 import { css, jsx } from '@emotion/core'
 
 import Layout from '../components/layout'
+import PrevNext from '../components/prev-next'
 import SEO from '../components/seo'
 
 import BlogSeries from './blog-series'
-
-const prevNextList = css`
-  display: flex;
-  list-style: none;
-  margin-top: 2em;
-  padding: 0;
-  width: 100%;
-
-  > li {
-    flex: 1 0 0;
-  }
-
-  a {
-    border-bottom: 0;
-  }
-`
 
 const textRight = css`
   text-align: right;
@@ -32,63 +17,43 @@ const textRight = css`
 const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark
   const { previous, next } = pageContext
+  const series = data.allMarkdownRemark.edges
+  const seriesData = series[0].node.frontmatter
 
   return (
     <Layout>
       <SEO title={post.frontmatter.title} description={post.description} />
-      <h2>{post.frontmatter.title}</h2>
-      <p css={textRight}>{post.frontmatter.date}</p>
-      {post.frontmatter.isSeries && (
-        <BlogSeries
-          currentPost={pageContext.slug}
-          series={data.allMarkdownRemark.edges}
-          showBlurb
-        />
-      )}
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      {post.frontmatter.isSeries && (
-        <BlogSeries
-          currentPost={pageContext.slug}
-          series={data.allMarkdownRemark.edges}
-        />
-      )}
-      <h4>Posts Like This</h4>
-      <ul>
-        {post.frontmatter.tags.map(tag => (
-          <li key={tag}>
-            <Link to={`/blog/${tag}`}>{tag}</Link>
-          </li>
-        ))}
-      </ul>
-      {(previous || next) && (
-        <React.Fragment>
-          <hr />
-          <ul css={prevNextList}>
-            {previous && (
-              <li>
-                <Link
-                  to={previous.fields.slug}
-                  rel="prev"
-                  title={previous.frontmatter.title}
-                >
-                  ← previous
-                </Link>
-              </li>
-            )}
-            {next && (
-              <li css={textRight}>
-                <Link
-                  to={next.fields.slug}
-                  rel="next"
-                  title={next.frontmatter.title}
-                >
-                  next →
-                </Link>
-              </li>
-            )}
-          </ul>
-        </React.Fragment>
-      )}
+      <article>
+        <h2>{post.frontmatter.title}</h2>
+        <p css={textRight}>{post.frontmatter.date}</p>
+        {post.frontmatter.isSeries && (
+          <React.Fragment>
+            <p>{seriesData.seriesBlurb}</p>
+            <BlogSeries
+              currentPost={pageContext.slug}
+              series={series}
+              seriesData={seriesData}
+            />
+          </React.Fragment>
+        )}
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        {post.frontmatter.isSeries && (
+          <BlogSeries
+            currentPost={pageContext.slug}
+            series={series}
+            seriesData={seriesData}
+          />
+        )}
+        <h4>Posts Like This</h4>
+        <ul>
+          {post.frontmatter.tags.map(tag => (
+            <li key={tag}>
+              <Link to={`/blog/${tag}`}>{tag}</Link>
+            </li>
+          ))}
+        </ul>
+        {(previous || next) && <PrevNext previous={previous} next={next} />}
+      </article>
     </Layout>
   )
 }
