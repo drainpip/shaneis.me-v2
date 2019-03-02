@@ -15,7 +15,7 @@ const prevNextList = css`
   }
 
   a {
-    border-bottom: 0;
+    text-decoration: none;
   }
 `
 

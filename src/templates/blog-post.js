@@ -23,7 +23,7 @@ const BlogPost = ({ data, pageContext }) => {
   return (
     <Layout>
       <SEO title={post.frontmatter.title} description={post.description} />
-      <article>
+      <section>
         <h2>{post.frontmatter.title}</h2>
         <p css={textRight}>{post.frontmatter.date}</p>
         {post.frontmatter.isSeries && (
@@ -36,7 +36,7 @@ const BlogPost = ({ data, pageContext }) => {
             />
           </React.Fragment>
         )}
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <article dangerouslySetInnerHTML={{ __html: post.html }} />
         {post.frontmatter.isSeries && (
           <BlogSeries
             currentPost={pageContext.slug}
@@ -53,7 +53,7 @@ const BlogPost = ({ data, pageContext }) => {
           ))}
         </ul>
         {(previous || next) && <PrevNext previous={previous} next={next} />}
-      </article>
+      </section>
     </Layout>
   )
 }

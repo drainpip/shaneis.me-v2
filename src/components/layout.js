@@ -7,20 +7,27 @@ import { StaticQuery, Link, graphql } from 'gatsby'
 import Header from './header'
 import GlobalStyles from './global-styles'
 
-const mainSection = css`
+const contentWidth = css`
   max-width: 40em;
   margin-left: auto;
   margin-right: auto;
-  padding: 2em 1.5em;
 `
 
-const footer = css`
-  border-top: 1px solid #555;
-  margin-top: 2em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  text-align: center;
-`
+const main = [
+  contentWidth,
+  css`
+    padding: 2em 1.5em;
+  `,
+]
+
+const footer = [
+  contentWidth,
+  css`
+    margin-top: 4em;
+    margin-bottom: 2em;
+    text-align: center;
+  `,
+]
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -37,13 +44,11 @@ const Layout = ({ children }) => (
       <React.Fragment>
         <GlobalStyles />
         <Header siteTitle={data.site.siteMetadata.title} />
-        <section css={mainSection}>
-          {children}
-          <footer css={footer}>
-            &copy; {new Date().getFullYear()} &bull;{' '}
-            <Link to="/colophon">Colophon</Link>
-          </footer>
-        </section>
+        <main css={main}>{children}</main>
+        <footer css={footer}>
+          &copy; {new Date().getFullYear()} &bull;{' '}
+          <Link to="/colophon">Colophon</Link>
+        </footer>
       </React.Fragment>
     )}
   />
