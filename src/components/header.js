@@ -16,13 +16,13 @@ const headerHeading = css`
 `
 
 const headerLink = css`
-  border-bottom-width: 5px;
   color: #fff;
+  border-bottom: 5px solid;
+  text-decoration: none;
   &:visited {
     color: #fff;
   }
   &:hover {
-    border-bottom-color: #555;
     color: rgba(255, 255, 255, 0.8);
   }
 `
