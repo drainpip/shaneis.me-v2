@@ -86,6 +86,7 @@ const globalCSS = css`
 
   a {
     color: #0074d9;
+    text-decoration-skip: edges;
 
     &:visited {
       color: #b10dc9;
