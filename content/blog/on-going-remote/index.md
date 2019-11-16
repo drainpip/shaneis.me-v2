@@ -20,7 +20,7 @@ Self-motivation is a core tenant of surviving remote life. If it’s difficult f
 
 Loving what you do is a huge benefit. It’s quite simple to stay on task if you love your job. Being able to do your job when you want is a quick win. I tend to be more creative and clear-headed first thing in the morning... so if I didn’t have a preschool age child at home I would probably work then... Since I can’t realistically work whenever I wanted, loving my job makes it easy to jump in when I can.
 
-Having a private space is a must. I don’t think I’d be nearly as effective in the daily grind if I couldn’t close my door and keep distractions away. When I worked in an open office before I transferred to remote, I had my headphones on nearly constantly listening to music to drown out the cacophony. I find that these days I rarely listen to music, except when I really feel the urge.
+Having a private space is a must. I don’t think I’d be nearly as effective in the daily grind if I couldn’t close my door and keep distractions away. When I worked in an open office before I transferred to remote, I had my headphones on nearly constantly listen to music to drown out the cacophony. I find that these days I rarely listen to music, except when I really feel the urge.
 
 You will miss the good things about the office. Unless your company requires all decisions to be in writing somewhere, you will miss out on impromptu conversations that will likely lead to decisions that will likely affect your project in some likely big way. You will miss the general human connections that are made, and although you can get close with tools like Slack it’s just nowhere near the same.
 
@@ -32,9 +32,11 @@ If the place you work would “hire remote for the right person”, you should a
 
 Your employer needs to be willing to make space for remote employees. They need to make a lot of concessions that don’t make much sense if your workforce is all in the office. How much do we need top-tier audio-visual in conference rooms when everyone is in the same room? Why do I have to stop a conversation and go write it down to include those that aren’t here when it will take five times as long to come to the same conclusion?
 
-There are thousands of reasons why a company doesn’t want remote employees. You have to hire the best and brightest and trust them to do what you’re paying them to do — this is hard. It’s much easier to do from the beginning rather than transitioning, however if you are fighting for that transition to occur ask for something small: one day a week, any day that’s convenient for the employee. If you pick a day that everyone works from home, it’s not the same feel.
+There are thousands of reasons why a company doesn’t want remote employees that go beyond spending a bunch of money on cameras and microphones. You have to hire the best and brightest and trust them to do what you’re paying them to do — this is hard.
 
-Your company gets lots of wins out of this. The most obvious: the best people to work at your company do not live in the city of your office. Of course, not having to handle another body at the office lowers overhead on real estate.
+It’s much easier to allow remote employees from the beginning of the business rather than transitioning to it, however if you are fighting for that transition to occur ask for something small: one day a week, any day that’s convenient for the employee. If you pick a day that everyone works from home, it’s not the same feel.
+
+Your company gets lots of wins out of allowing remote employees. The most obvious: the best people to work at your company do not live in the city of your office. Of course, not having to handle another body at the office lowers overhead on real estate.
 
 Having face-to-face time some of the time when you have fully remote employees. It’s important to bring everyone in once or twice a year for some solid socializing. That’s a major expense that could be offset elsewhere, but that’s a difficult spend if it’s not built into the culture.
 
