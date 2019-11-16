@@ -19,4 +19,4 @@ script:
   - 'yarn test'
   - 'yarn build:prod'
 after_success:
-  - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && firebase deploy --token=${FIREBASE_TOKEN}'
+  - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && firebase use shane-is-me && firebase deploy --token=${FIREBASE_TOKEN}'
