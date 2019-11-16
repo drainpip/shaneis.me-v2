@@ -22,7 +22,7 @@
         ]
       },
       {
-        "source": "404.html",
+        "source": "**/*.@(html)",
         "headers": [
           {
             "key": "Cache-Control",
