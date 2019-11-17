@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import PostIndex from '../components/post-index'
@@ -11,6 +12,11 @@ const IndexPage = () => (
       I've always had grandiose plans for a personal website that have never
       come to fruition. Instead my creative energy goes into work or fanciful
       things like writing stories for an audience of one.
+    </p>
+
+    <p>
+      I am <Link to="/all-consulting">for hire</Link> to work on web projects of
+      any type.
     </p>
 
     <PostIndex />
