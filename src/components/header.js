@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
-import { css, jsx } from '@emotion/core'
+import { css, jsx } from '@emotion/react'
 
 const header = css`
   background-color: #555;

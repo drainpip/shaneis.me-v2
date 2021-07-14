@@ -10,7 +10,7 @@ const description = `Shane Duff has been writing code for over twenty years.
 
 const AllConsulting = () => (
   <Layout>
-    <SEO title="Shane Is Me All Consulting" description={description} />
+    <SEO title="I'm All Consulting" description={description} />
     <h2>I'm all consulting</h2>
     <p>
       I've been building websites for over twenty years now. I've worked in just
