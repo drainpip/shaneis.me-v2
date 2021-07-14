@@ -2,7 +2,7 @@
 // import PropTypes from 'prop-types'
 import React from 'react'
 import { graphql, Link } from 'gatsby'
-import { css, jsx } from '@emotion/core'
+import { css, jsx } from '@emotion/react'
 
 import Layout from '../components/layout'
 import PrevNext from '../components/prev-next'
