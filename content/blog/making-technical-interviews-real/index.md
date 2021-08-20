@@ -18,7 +18,7 @@ We all sat in a room and asked each other what the goals of our interview should
 
 All of our decisions went through these steps. Any new idea had to answer to both of those goals. I don't think we could have come up with as good of a system without them.
 
-With this guidance, we quickly came up with a two-part technical interview that is fairly specific to the Front End, however, the general idea behind each interview is applicable to any technical problem, if I may be so bold.
+With this guidance, we quickly came up with a two-part technical interview that is fairly specific to the Front End, however, the general idea behind each interview is applicable to any technical problem if I may be so bold.
 
 ### The Technical Round
 
@@ -30,14 +30,14 @@ The full steps for our interview process are as follows:
 4. VP of Engineering pitch
 5. Offer
 
-Our technical round has two interviews in total. The first is our coding challenge. The coding interview is one of the most rightfully maligned in our industry. Many, including the big names, I feel do this completely backward. They're typically a pass/fail scenario where if you miss one minor trick question you're out of contention. They're typically a painful process, something to be feared. And even with all that negative, and more that I don't have time to list, this process doesn't find the best writers of code just those that are lucky or have studied a particular company's hiring process to game the system.
+Our technical round has two interviews in total. The first is our coding challenge. The coding interview is one of the most rightfully maligned in our industry. Many I feel, including the big names, do this completely backward. They're typically a pass/fail scenario where if you miss one minor trick question you're out of contention. They're typically a painful process, something to be feared. Even with all that negative, and more that I don't have time to list, this process doesn't find the best writers of code. Instead it finds those that are lucky because they studied that very problem recently, or have studied a particular company's hiring process to game the system.
 
-Our coding challenge is designed with our goals in mind, but it has its own specific goals as well:
+Our coding challenge is designed with our main goals in mind, but it has its own specific goals as well:
 
 * Find out a candidate's technical seniority.
 * Find out what it's like to pair with the candidate on an unfamiliar codebase.
 
-We start by sending a repository over to the candidate ahead of the interview. We do this not to have them work on it, but to have them get it installed and up and running so we don't waste time on that during the interview. The more studious of our candidates pour through the code to get familiar with its structure, and test out the UI to see the experience - this isn't a bug in the system, it's what we want our candidates to do! We give specific instructions that we don't want them to do any work outside of the interview, we feel like the hour spent in this interview is enough of an ask of their time and we don't want them spending a weekend on a coding challenge (or worse).
+We start by sending a repository over to the candidate ahead of the interview. We do this not to have them work on it, but to have them get it installed and up and running so we don't waste time on that during the interview. The more studious of our candidates pour through the code to get familiar with its structure, and test out the UI to see the experience - this isn't a bug in the system - it's what we want our candidates to do! We don’t want them to do any work outside of the interview, we feel like the hour spent in this interview is enough of an ask of their time, and we don't want them spending a weekend on a coding challenge (or worse).
 
 The day of the interview they are given instructions that this is a true open-book interview, if they want to search for an answer online they're free to do so - as well as ask the interviewers questions about anything they're doing. This is all in keeping with trying to make the interview as real-world as possible (we look up everything all the time), and being kind to our candidates.
 
@@ -67,9 +67,9 @@ We're particularly looking out for what questions the candidate has about the UI
 
 ### Documentation
 
-One thing I can say with my 20+ years of experience in tech: we don’t write things down enough. We consistently rely upon tribal knowledge, or walking-talking-SPOFs that are our most senior employees. If documentation for code and the most critical systems a company can be sparse, it’s doubly so for hiring and onboarding.
+One thing I can say with my 20+ years of experience in tech: we don’t write things down enough. We consistently rely upon tribal knowledge, or walking-talking-SPOFs that are our most senior employees. If documentation for the most critical systems at a company can be sparse, it’s doubly so for hiring and onboarding.
 
-Arguably one of the best ways of solving the problems of truly scaling a group of people up in number is through asynchronous communication. Publicly available documentation that is freely editable, eg. in a wiki, seems to be the best way of doing it. When we started the enterprise of revamping our interview process, we wanted to make sure that it wouldn’t be lost when people inevitably leave the company, or even got promoted out of the roles they were currently in.
+Arguably one of the best ways of solving the problems of truly scaling a group of people up in number is through asynchronous communication. Publicly available documentation that is freely editable, eg. in a wiki, seems to be the best way of doing it. When we started the enterprise of revamping our interview process, we wanted to make sure that it wouldn’t be lost when people inevitably changed roles, or leave the company.
 
 Our company uses a wiki platform for all of its documentation. It’s something that is searchable, public, and editable by definition. Since we had the platform already, we skipped over the difficult part of finding that place. If you are in a position without such a thing, I can simply say to write your documentation wherever you can. Don’t let perfect be the enemy of good. Ensure it’s publicly available to anyone in the company and share as much as possible.
 
@@ -93,10 +93,18 @@ No one I know writes code on a white board. Candidates aren’t going to be writ
 
 This goes straight back to our goals: what will it be like to work with this person? Can we answer that by tricking people or asking them to solve a problem they’ll never do even if they code for 20+ years? Is it kind to create a purposefully difficult routine for people to jump through? Does that reveal the best people for writing software? Of course not, we need to strip all the artifice away and just ask the candidate to do what we actually do.
 
+We now have a well-documented, consistent, interview process that is kind, gives people a place to shine, and still tests people very directly on how well they will do in our day-to-day work environment. Although the process I laid out sounds easy compared to some nefarious companies, there is nowhere to hide if you don’t actually have the skills necessary to work on our team.
+
 Additionally, as a hiring manager you have a choice between two conversations:
 
 1. They didn’t pass the arbitrary coding challenge that has nothing to do with the job.
 2. I think they’re more on the junior side of things, but they really took my feedback positively and jumped right back in when they were lost for a minute.
 
 Which would you like?
+
+***
+
+Edits:
+
+2021/08/20 - minor grammatical improvements, additional “We now have a well-documented” paragraph summary I felt was missing.
 
