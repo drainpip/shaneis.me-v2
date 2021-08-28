@@ -14,11 +14,6 @@ const IndexPage = () => (
       things like writing stories for an audience of one.
     </p>
 
-    <p>
-      I am <Link to="/all-consulting">for hire</Link> to work on web projects of
-      any type.
-    </p>
-
     <PostIndex />
 
     <h4>More?</h4>
