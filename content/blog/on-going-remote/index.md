@@ -6,6 +6,8 @@ image: ''
 tags: ['personal', 'work']
 ---
 
+*Note* - This was written before the ongoing pandemic. Much of this has very little to do with remote life during a pandemic, that is a quite different blog post...
+
 Regularly what you do for a living comes up in conversation. “I write software” is either a conversation starter or killer, depending on the audience. The obvious follow-up is where? “I work remotely for a company in San Francisco...”. The reaction to this is some variation of “you lucky asshole”.
 
 I am a lucky asshole, but there are some things you should know before taking, or changing to, a remote position.
@@ -52,4 +54,20 @@ Lack of humans surrounding me has pros and cons, but having regularly scheduled 
 
 Working at a place that fully embraces remote employees is not just critical, but in my opinion necessary. You can’t be the only one, or one of a few, that is treated like a contractor. It has to be baked in for all employees, even if they live in the same city as the office. It starts from the top, if they’re not all in I’m not sure it will work.
 
-There are lots of resources out there for this, but in my opinion the best are all found [over at Basecamp](https://basecamp.com/books). I’ve read all these books and have recommended them to many people. Basecamp is a fully remote company, moreso than the one I work for. Everyone that does not need to be present physically, and are privileged enough to have stable and fast internet, should have the opportunity to work remote. It’s best for our personal lives, for the companies we work for, and for the cities we live in.
+### What I do, a concrete list
+
+Every morning, I get fully ready as if I was going into the office. I am privileged enough to work fully casual, so your mileage may vary.
+
+I try to emulate the good parts of the commute. In the morning I sit at my desk and read the news or a book, possibly an episode of a favorite show. This is something that's a little harder for me as I feel the pull to go play with the family right away. However, when I force myself or feel like it, the disconnection from the day-to-day home life and back is really helpful for me.
+
+I disconnect from work for all but emergencies when not at my desk. I put in a solid work day and I go away. I don't have work emails on my phone, or my work calendar, and slack puts me set to away after my work hours. If I had time to disconnect, it makes the transition of walking downstairs much more smooth - and really this is good advice even if you don't work remote!
+
+I try to have social time as much as possible with my coworkers. I like to have informal 1:1's or group chats just to catch up, talk about weekend plans, the usual. I have to go out of my way to make this happen so when things get hectic this does tend to fall by the wayside. I sometimes have set times on the calendar for this, but it usually putters out after a couple months. Still trying to figure that out.
+
+These things help me try to introduce some of the good aspects of being on-site vs. remote, while maintaining all the good things of being remote! I do still miss sharing a physical space, but, for me, the benefits far outweigh anything else.
+
+***
+
+Edits:
+
+2021/09/1 - added note at the top, removed the Basecamp recommendation :(, added the "What I do, a concrete list" section as it always bothered me I never actually talked about that.
