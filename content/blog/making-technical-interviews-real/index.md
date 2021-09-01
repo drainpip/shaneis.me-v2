@@ -30,7 +30,7 @@ The full steps for our interview process are as follows:
 4. VP of Engineering pitch
 5. Offer
 
-Our technical round has two interviews in total. The first is our coding challenge. The coding interview is one of the most rightfully maligned in our industry. Many I feel, including the big names, do this completely backward. They're typically a pass/fail scenario where if you miss one minor trick question you're out of contention. They're typically a painful process, something to be feared. Even with all that negative, and more that I don't have time to list, this process doesn't find the best writers of code. Instead it finds those that are lucky because they studied that very problem recently, or have studied a particular company's hiring process to game the system.
+Our technical round has two interviews in total. The first is our coding challenge. The coding interview is one of the most rightfully maligned in our industry. Many, I feel, do this completely backward - including the big names. They're typically a pass/fail scenario where if you miss one minor trick question you're out of contention. They're typically a painful process, something to be feared. Even with all that negative, and more that I don't have time to list, this process doesn't find the best writers of code. Instead it finds those that are lucky because they studied that very problem recently, or have studied a particular company's hiring process to game the system.
 
 Our coding challenge is designed with our main goals in mind, but it has its own specific goals as well:
 
@@ -107,4 +107,6 @@ Which would you like?
 Edits:
 
 2021/08/20 - minor grammatical improvements, additional “We now have a well-documented” paragraph summary I felt was missing.
+
+2021/09/01 - minor grammatical improvements
 
