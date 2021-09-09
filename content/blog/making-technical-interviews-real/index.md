@@ -16,7 +16,7 @@ We all sat in a room and asked each other what the goals of our interview should
 * Be kind to the people asking to work with us.
 * No pass/fail.
 
-All of our decisions went through these steps. Any new idea had to answer to both of those goals. I don't think we could have come up with as good of a system without them.
+All of our decisions went through these steps. Any new idea had to answer to all of the goals. I don't think we could have come up with as good of a system without them.
 
 With this guidance, we quickly came up with a two-part technical interview that is fairly specific to the Front End, however, the general idea behind each interview is applicable to any technical problem if I may be so bold.
 
@@ -109,4 +109,6 @@ Edits:
 2021/08/20 - minor grammatical improvements, additional “We now have a well-documented” paragraph summary I felt was missing.
 
 2021/09/01 - minor grammatical improvements
+
+2021/09/09 - minor grammatical improvements
 
