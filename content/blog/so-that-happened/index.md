@@ -3,6 +3,10 @@ title: 'So That Happened'
 description: 'I do not think we can handle any more, thank you.'
 date: '2021-07-14'
 image: ''
+isSeries: false
+seriesSlug: ''
+seriesBlurb: ''
+seriesEnded: false
 tags: ['personal']
 ---
 

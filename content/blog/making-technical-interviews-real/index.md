@@ -3,6 +3,10 @@ title: 'Making Technical Interviews Real'
 description: 'Some small rules to make your technical interviews stand out and be enjoyed by everyone involved.'
 date: '2021-08-12'
 image: ''
+isSeries: false
+seriesSlug: ''
+seriesBlurb: ''
+seriesEnded: false
 tags: ['management']
 ---
 

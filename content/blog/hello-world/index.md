@@ -3,6 +3,10 @@ title: 'Hello World'
 description: 'Can someone write more if they make it harder on themselves?'
 date: '2019-01-10'
 image: ''
+isSeries: false
+seriesSlug: ''
+seriesBlurb: ''
+seriesEnded: false
 tags: ['meta', 'personal']
 ---
 

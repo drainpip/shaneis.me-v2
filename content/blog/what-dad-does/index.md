@@ -3,6 +3,10 @@ title: 'What Dad Does'
 description: 'Explain coding and computers to a three year old.'
 date: '2019-01-11'
 image: ''
+isSeries: false
+seriesSlug: ''
+seriesBlurb: ''
+seriesEnded: false
 tags: ['personal']
 ---
 

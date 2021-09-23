@@ -3,7 +3,10 @@ title: 'Inanimate Objects'
 description: 'A short story involving some furniture.'
 date: '2019-04-24'
 image: ''
-seriesSlug: 'inanimate-objects'
+isSeries: false
+seriesSlug: ''
+seriesBlurb: ''
+seriesEnded: false
 tags: ['fiction']
 ---
 

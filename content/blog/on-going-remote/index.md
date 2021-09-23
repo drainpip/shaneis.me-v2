@@ -3,6 +3,10 @@ title: 'On Going Remote'
 description: 'Some thoughts about working fully remote.'
 date: '2019-11-16'
 image: ''
+isSeries: false
+seriesSlug: ''
+seriesBlurb: ''
+seriesEnded: false
 tags: ['personal', 'work']
 ---
 
