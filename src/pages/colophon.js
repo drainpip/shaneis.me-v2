@@ -1,11 +1,11 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 
 const Colophon = () => (
   <Layout>
-    <SEO title="Colophon" />
+    <Seo title="Colophon" />
     <h2>Colophon</h2>
     <p>This site is built with the help of viewers like you.</p>
     <p>As well as this stuff:</p>

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 
 const description = `Shane Duff has been writing code for over twenty years. 
   He can write more code for you, or fix your web strategy, 
@@ -10,7 +10,7 @@ const description = `Shane Duff has been writing code for over twenty years.
 
 const AllConsulting = () => (
   <Layout>
-    <SEO title="I'm All Consulting" description={description} />
+    <Seo title="I'm All Consulting" description={description} />
     <h2>I'm all consulting</h2>
     <p>
       I've been building websites for over twenty years now. I've worked in just

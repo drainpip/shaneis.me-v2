@@ -1,13 +1,12 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import PostIndex from '../components/post-index'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`shane duff`, `coding`, `fiction`]} />
+    <Seo title="Home" keywords={[`shane duff`, `coding`, `fiction`]} />
     <p>
       I've always had grandiose plans for a personal website that have never
       come to fruition. Instead my creative energy goes into work or fanciful

@@ -6,7 +6,7 @@ import { css, jsx } from '@emotion/react'
 
 import Layout from '../components/layout'
 import PrevNext from '../components/prev-next'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 
 import BlogSeries from './blog-series'
 
@@ -22,7 +22,7 @@ const BlogPost = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} description={post.description} />
+      <Seo title={post.frontmatter.title} description={post.description} />
       <section>
         <h2>{post.frontmatter.title}</h2>
         <p css={textRight}>{post.frontmatter.date}</p>

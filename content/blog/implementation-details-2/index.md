@@ -153,7 +153,7 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 
 const BlogPost = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
@@ -161,7 +161,7 @@ const BlogPost = ({ data, pageContext, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title={post.frontmatter.title} description={post.excerpt} />
+      <Seo title={post.frontmatter.title} description={post.excerpt} />
       <h1>{post.frontmatter.title}</h1>
       <p>{post.frontmatter.date}</p>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -191,7 +191,7 @@ export const pageQuery = graphql`
 <!-- CODE BLOCK - END -->
 <!-- prettier-ignore-end -->
 
-Note: There are some assumptions in this code that you still have `<Layout />` and `<SEO />` hanging around. If not, feel free to delete that part.
+Note: There are some assumptions in this code that you still have `<Layout />` and `<Seo />` hanging around. If not, feel free to delete that part.
 
 Let’s go into `gatsby-node.js`, create the pages, and use this new template!
 

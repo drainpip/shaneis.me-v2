@@ -4,7 +4,7 @@ import { graphql, Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import PostList from '../components/post-list'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 
 const Tags = ({ pageContext, data }) => {
   const { tag } = pageContext
@@ -14,7 +14,7 @@ const Tags = ({ pageContext, data }) => {
   } tagged with "${tag}"`
   return (
     <Layout>
-      <SEO title={tag} description={tagInfo} />
+      <Seo title={tag} description={tagInfo} />
       <PostList heading={tag} posts={data.allMarkdownRemark} />
       <Link to="/blog">&larr; Blog Index</Link>
     </Layout>
