@@ -32,16 +32,16 @@ const PrevNext = ({ previous, next }) => (
           <Link
             to={previous.fields.slug}
             rel="prev"
-            title={previous.frontmatter.title}
+            title="Previous Post"
           >
-            ← previous
+            ←&nbsp;{previous.frontmatter.title}
           </Link>
         </li>
       )}
       {next && (
         <li css={textRight}>
-          <Link to={next.fields.slug} rel="next" title={next.frontmatter.title}>
-            next →
+          <Link to={next.fields.slug} rel="next" title="Next Post">
+            {next.frontmatter.title}&nbsp;→
           </Link>
         </li>
       )}
