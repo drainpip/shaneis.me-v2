@@ -16,7 +16,7 @@ Joining a new company, a new team, a new code base, and a new way of doing thing
 
 Each time someone new comes into the team, we have a new team. This means that we can't expect the things out of this new team that we had in our previous team - at least not yet. Something that's important to understand is velocity tends to actually get worse for a bit when new folks are added, this is normal in my experience and nothing to be worried about. So we're not optimizing for team velocity.
 
-If you're familiar with [Tuckman's stages of group development](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development), I've found them to be fairly accurate. The forming / storming phases are what I'm talking about here. The more established a team was before the new person joins, if you were rocking in the performing phase for a while, the shorter the forming and storming phases typically are.
+If you're familiar with [Tuckman's stages of group development](https://en.wikipedia.org/wiki/Tuckman%27s_stages_of_group_development), I've found them to be fairly accurate. The forming / storming phases are what I'm talking about here. The more established a team was before the new person joins, if you were rocking in the performing phase for a while, the shorter the forming and storming phases typically are. The opposite is true though, if your team was not functioning at its peak, or you've been in a constant forming/storming phase for a long time due to growth expect things to go much slower without direct action to help from you.
 
 What we're optimizing is to get our new team member ramped up so they can be a contributing member of the team. This means taking time away from everyone else on the team that would otherwise be spent writing software. This needs to be efficient, but it might not be fast. We make things efficient by focusing on documentation, pairing on problems, and allowing them to select the pace and process to which they will learn.
 
@@ -61,3 +61,9 @@ A lot of people like to talk the first 30/60/90 days and their expectations, her
 This might seem a little too gentle to you. If you’re thinking that, my question is why? Although I can understand wanting them to close a bug on their first day, I’ve never liked introducing any sort of stress into our normal day-to-day work life. There’s no end in sight, and our work will never be done, let’s just relax a bit and maintain long-term relationships with our team rather than burn them out down to the nub so there’s nothing left but an empty seat because they came and worked for someone like me.
 
 Essentially that's it. Recalibrate your expectations, focus on the right things, increase your documentation, and you'll make it through this.
+
+***
+
+Edits:
+
+2021/10/07 - Added flip side of the coin about Tuckman's group development and how things can go much more slowly without help.
