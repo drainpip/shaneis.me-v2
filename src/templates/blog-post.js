@@ -22,7 +22,7 @@ const BlogPost = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <Seo title={post.frontmatter.title} description={post.description} />
+      <Seo title={post.frontmatter.title} description={post.frontmatter.description} />
       <section>
         <h2>{post.frontmatter.title}</h2>
         <p css={textRight}>{post.frontmatter.date}</p>
