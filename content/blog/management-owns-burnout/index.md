@@ -1,7 +1,7 @@
 ---
 title: 'Management Owns Burnout'
 description: 'If the team you manage is spinning out of control due to burnout, it is your fault. What do we do now?'
-date: '2021-10-15'
+date: '2021-10-14'
 image: ''
 isSeries: false
 seriesSlug: ''
