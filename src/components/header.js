@@ -1,19 +1,19 @@
 /** @jsx jsx */
-import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
-import { css, jsx } from '@emotion/react'
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import { css, jsx } from '@emotion/react';
 
 const header = css`
   background-color: #555;
   text-align: center;
-`
+`;
 
 const headerHeading = css`
   line-height: 1;
   margin-bottom: 0;
   padding-bottom: 0.15em;
   padding-top: 0.15em;
-`
+`;
 
 const headerLink = css`
   color: #fff;
@@ -25,7 +25,7 @@ const headerLink = css`
   &:hover {
     color: rgba(255, 255, 255, 0.8);
   }
-`
+`;
 
 const Header = ({ siteTitle }) => (
   <header css={header}>
@@ -35,14 +35,14 @@ const Header = ({ siteTitle }) => (
       </Link>
     </h1>
   </header>
-)
+);
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
   siteTitle: ``,
-}
+};
 
-export default Header
+export default Header;

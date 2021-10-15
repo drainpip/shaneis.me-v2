@@ -1,6 +1,6 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link } from 'gatsby';
 
 const BlogSeries = ({ currentPost, series, seriesData }) => {
   return (
@@ -19,13 +19,13 @@ const BlogSeries = ({ currentPost, series, seriesData }) => {
         {!seriesData.seriesEnded && <li>More Coming Soon...</li>}
       </ol>
     </React.Fragment>
-  )
-}
+  );
+};
 
 BlogSeries.propTypes = {
   currentPost: PropTypes.string.isRequired,
   series: PropTypes.array.isRequired,
   seriesData: PropTypes.object.isRequired,
-}
+};
 
-export default BlogSeries
+export default BlogSeries;

@@ -1,7 +1,7 @@
 /** @jsx jsx */
-import React from 'react'
-import { css, jsx } from '@emotion/react'
-import { Link } from 'gatsby'
+import React from 'react';
+import { css, jsx } from '@emotion/react';
+import { Link } from 'gatsby';
 
 const prevNextList = css`
   display: flex;
@@ -17,11 +17,11 @@ const prevNextList = css`
   a {
     text-decoration: none;
   }
-`
+`;
 
 const textRight = css`
   text-align: right;
-`
+`;
 
 const PrevNext = ({ previous, next }) => (
   <React.Fragment>
@@ -29,11 +29,7 @@ const PrevNext = ({ previous, next }) => (
     <ul css={prevNextList}>
       {previous && (
         <li>
-          <Link
-            to={previous.fields.slug}
-            rel="prev"
-            title="Previous Post"
-          >
+          <Link to={previous.fields.slug} rel="prev" title="Previous Post">
             ←&nbsp;{previous.frontmatter.title}
           </Link>
         </li>
@@ -47,6 +43,6 @@ const PrevNext = ({ previous, next }) => (
       )}
     </ul>
   </React.Fragment>
-)
+);
 
-export default PrevNext
+export default PrevNext;

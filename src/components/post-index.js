@@ -1,7 +1,7 @@
-import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
+import React from 'react';
+import { StaticQuery, graphql } from 'gatsby';
 
-import PostList from './post-list'
+import PostList from './post-list';
 
 const PostIndex = () => (
   <StaticQuery
@@ -30,6 +30,6 @@ const PostIndex = () => (
       </React.Fragment>
     )}
   />
-)
+);
 
-export default PostIndex
+export default PostIndex;

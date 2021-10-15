@@ -1,24 +1,24 @@
 /** @jsx jsx */
-import React from 'react'
-import PropTypes from 'prop-types'
-import { css, jsx } from '@emotion/react'
-import { StaticQuery, Link, graphql } from 'gatsby'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { css, jsx } from '@emotion/react';
+import { StaticQuery, Link, graphql } from 'gatsby';
 
-import Header from './header'
-import GlobalStyles from './global-styles'
+import Header from './header';
+import GlobalStyles from './global-styles';
 
 const contentWidth = css`
   max-width: 40em;
   margin-left: auto;
   margin-right: auto;
-`
+`;
 
 const main = [
   contentWidth,
   css`
     padding: 2em 1.5em;
   `,
-]
+];
 
 const footer = [
   contentWidth,
@@ -27,7 +27,7 @@ const footer = [
     margin-bottom: 2em;
     text-align: center;
   `,
-]
+];
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -52,10 +52,10 @@ const Layout = ({ children }) => (
       </React.Fragment>
     )}
   />
-)
+);
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default Layout
+export default Layout;

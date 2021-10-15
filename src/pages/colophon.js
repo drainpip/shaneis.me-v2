@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import Layout from '../components/layout'
-import Seo from '../components/seo'
+import Layout from '../components/layout';
+import Seo from '../components/seo';
 
 const Colophon = () => (
   <Layout>
@@ -26,6 +26,6 @@ const Colophon = () => (
       <li>Spare Time</li>
     </ul>
   </Layout>
-)
+);
 
-export default Colophon
+export default Colophon;

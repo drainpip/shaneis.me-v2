@@ -1,5 +1,5 @@
-import { Global, css } from '@emotion/react'
-import React from 'react'
+import { Global, css } from '@emotion/react';
+import React from 'react';
 
 const globalCSS = css`
   html {
@@ -130,8 +130,8 @@ const globalCSS = css`
   a.anchor {
     border-bottom: 0;
   }
-`
+`;
 
-const GlobalStyles = () => <Global styles={globalCSS} />
+const GlobalStyles = () => <Global styles={globalCSS} />;
 
-export default GlobalStyles
+export default GlobalStyles;

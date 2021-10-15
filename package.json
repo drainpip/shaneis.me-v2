@@ -36,8 +36,7 @@
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Warning: no test specified\" && exit 0",
     "build:prod": "yarn build -- --prefix-links",
-    "predeploy": "yarn build -- --prefix-links",
-    "deploy": "firebase deploy"
+    "predeploy": "yarn build -- --prefix-links"
   },
   "devDependencies": {
     "prettier": "^1.16.4"

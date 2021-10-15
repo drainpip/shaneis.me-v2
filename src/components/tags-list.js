@@ -1,5 +1,5 @@
-import React from 'react'
-import { StaticQuery, Link, graphql } from 'gatsby'
+import React from 'react';
+import { StaticQuery, Link, graphql } from 'gatsby';
 
 const TagsList = () => (
   <StaticQuery
@@ -32,6 +32,6 @@ const TagsList = () => (
       </React.Fragment>
     )}
   />
-)
+);
 
-export default TagsList
+export default TagsList;

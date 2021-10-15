@@ -1,16 +1,16 @@
 /** @jsx jsx */
-import React from 'react'
-import PropTypes from 'prop-types'
-import { css, jsx } from '@emotion/react'
-import { Link } from 'gatsby'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { css, jsx } from '@emotion/react';
+import { Link } from 'gatsby';
 
 const list = css`
   margin-bottom: 2em;
-`
+`;
 
 const listHeading = css`
   border-bottom: 2px solid #555;
-`
+`;
 const listLink = css`
   border: 1px solid;
   display: inline-block;
@@ -32,7 +32,7 @@ const listLink = css`
   & + & {
     margin-top: 2em;
   }
-`
+`;
 
 const PostList = ({ posts, heading }) => (
   <React.Fragment>
@@ -47,11 +47,11 @@ const PostList = ({ posts, heading }) => (
       ))}
     </div>
   </React.Fragment>
-)
+);
 
 PostList.defaultProps = {
   heading: `Latest Posts`,
-}
+};
 
 PostList.propTypes = {
   heading: PropTypes.string,
@@ -68,9 +68,9 @@ PostList.propTypes = {
             title: PropTypes.string.isRequired,
           }),
         }),
-      }).isRequired
+      }).isRequired,
     ),
   }),
-}
+};
 
-export default PostList
+export default PostList;

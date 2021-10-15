@@ -1,25 +1,25 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql, Link } from 'gatsby'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { graphql, Link } from 'gatsby';
 
-import Layout from '../components/layout'
-import PostList from '../components/post-list'
-import Seo from '../components/seo'
+import Layout from '../components/layout';
+import PostList from '../components/post-list';
+import Seo from '../components/seo';
 
 const Tags = ({ pageContext, data }) => {
-  const { tag } = pageContext
-  const { totalCount } = data.allMarkdownRemark
+  const { tag } = pageContext;
+  const { totalCount } = data.allMarkdownRemark;
   const tagInfo = `${totalCount} post${
     totalCount === 1 ? '' : 's'
-  } tagged with "${tag}"`
+  } tagged with "${tag}"`;
   return (
     <Layout>
       <Seo title={tag} description={tagInfo} />
       <PostList heading={tag} posts={data.allMarkdownRemark} />
       <Link to="/blog">&larr; Blog Index</Link>
     </Layout>
-  )
-}
+  );
+};
 
 Tags.propTypes = {
   pageContext: PropTypes.shape({
@@ -30,9 +30,9 @@ Tags.propTypes = {
       totalCount: PropTypes.number.isRequired,
     }),
   }),
-}
+};
 
-export default Tags
+export default Tags;
 
 export const pageQuery = graphql`
   query($tag: String) {
@@ -56,4 +56,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

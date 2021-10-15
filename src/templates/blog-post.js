@@ -1,28 +1,31 @@
 /** @jsx jsx */
 // import PropTypes from 'prop-types'
-import React from 'react'
-import { graphql, Link } from 'gatsby'
-import { css, jsx } from '@emotion/react'
+import React from 'react';
+import { graphql, Link } from 'gatsby';
+import { css, jsx } from '@emotion/react';
 
-import Layout from '../components/layout'
-import PrevNext from '../components/prev-next'
-import Seo from '../components/seo'
+import Layout from '../components/layout';
+import PrevNext from '../components/prev-next';
+import Seo from '../components/seo';
 
-import BlogSeries from './blog-series'
+import BlogSeries from './blog-series';
 
 const textRight = css`
   text-align: right;
-`
+`;
 
 const BlogPost = ({ data, pageContext }) => {
-  const post = data.markdownRemark
-  const { previous, next } = pageContext
-  const series = data.allMarkdownRemark.edges
-  const seriesData = series[0].node.frontmatter
+  const post = data.markdownRemark;
+  const { previous, next } = pageContext;
+  const series = data.allMarkdownRemark.edges;
+  const seriesData = series[0].node.frontmatter;
 
   return (
     <Layout>
-      <Seo title={post.frontmatter.title} description={post.frontmatter.description} />
+      <Seo
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+      />
       <section>
         <h2>{post.frontmatter.title}</h2>
         <p css={textRight}>{post.frontmatter.date}</p>
@@ -55,10 +58,10 @@ const BlogPost = ({ data, pageContext }) => {
         {(previous || next) && <PrevNext previous={previous} next={next} />}
       </section>
     </Layout>
-  )
-}
+  );
+};
 
-export default BlogPost
+export default BlogPost;
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!, $seriesSlug: String) {
@@ -92,4 +95,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-import Layout from '../components/layout'
-import Seo from '../components/seo'
+import Layout from '../components/layout';
+import Seo from '../components/seo';
 
 const description = `Shane Duff has been writing code for over twenty years. 
   He can write more code for you, or fix your web strategy, 
   or get your project back on track, or anything else 
-  regarding sending a website to a browser.`
+  regarding sending a website to a browser.`;
 
 const AllConsulting = () => (
   <Layout>
@@ -38,6 +38,6 @@ const AllConsulting = () => (
       this to understand if what you want is possible, not to try and trick you.
     </p>
   </Layout>
-)
+);
 
-export default AllConsulting
+export default AllConsulting;
