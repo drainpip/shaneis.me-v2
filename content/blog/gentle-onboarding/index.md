@@ -44,7 +44,7 @@ That sounds good, in theory, but let's talk about how we do it in practice. Each
 1. Ramping up alone time
 1. Ramping down alone time
 
-We've talked about badges above, this is whatever onboarding documentation you have right now. Let them add to it and improve it. Someday you'll have something to be proud of. But the goal here is to get all that tribal knowledge out of your top people's heads and on paper.
+We've talked about badges above, this is whatever onboarding documentation you have right now. Let them add to it and improve it. Someday you'll have something to be proud of. But the goal here is to get all that institutional knowledge out of your top people's heads and on paper.
 
 Pair programming is great for a lot of reasons. It's most effective when both people don't know what they're doing. However, in an onboarding scenario, it can be an effective teacher / student relationship when someone with a lot of tenure explains how things are done and what all this mess of code means really. It's critically important not just a single person does this job. It's exhausting and difficult, yes, but mostly that limits the exposure of our new team member. We want more coding styles and techniques than they know what to do with rattling around in their heads. So we will set up a pairing partner each sprint (sometimes each week) where they'll both be attached at the hip. The new person will mostly observe and ask questions, and your pairing driver is showing them the ropes. Some drivers will be totally hands on, others will give the new person small tasks to complete on their own during downtime. All of this variation is fantastic and should be encouraged. Double bonus: teaching is one of the best ways of learning!
 
@@ -54,16 +54,18 @@ At this stage, we ask them to extend the time they're stuck before asking questi
 
 A lot of people like to talk the first 30/60/90 days and their expectations, here are mine:
 
-* 30: Get to know the company and its processes
-* 60: Get to know your team, how they work together; complete your first solo
-* 90: Ramping down alone time; becoming an effective teammate; maintaining a learning environment
+- 30: Get to know the company and its processes
+- 60: Get to know your team, how they work together; complete your first solo
+- 90: Ramping down alone time; becoming an effective teammate; maintaining a learning environment
 
 This might seem a little too gentle to you. If you’re thinking that, my question is why? Although I can understand wanting them to close a bug on their first day, I’ve never liked introducing any sort of stress into our normal day-to-day work life. There’s no end in sight, and our work will never be done, let’s just relax a bit and maintain long-term relationships with our team rather than burn them out down to the nub so there’s nothing left but an empty seat because they came and worked for someone like me.
 
 Essentially that's it. Recalibrate your expectations, focus on the right things, increase your documentation, and you'll make it through this.
 
-***
+---
 
 Edits:
+
+2021/12/01 - Adjusted wording for institutional knowledge
 
 2021/10/07 - Added flip side of the coin about Tuckman's group development and how things can go much more slowly without help.
