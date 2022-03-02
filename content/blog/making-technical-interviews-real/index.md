@@ -16,30 +16,29 @@ A few years ago, my team and I were unhappy with the interview process we had fo
 
 We all sat in a room and asked each other what the goals of our interview should be and we came up with something fairly simple:
 
-* Find out what it's like to work with this person in the shortest time possible.
-* Be kind to the people asking to work with us.
-* No pass/fail.
+- Find out what it's like to work with this person in the shortest time possible.
+- Be kind to the people asking to work with us.
+- No pass/fail.
 
 All of our decisions went through these steps. Any new idea had to answer to all of the goals. I don't think we could have come up with as good of a system without them.
 
 With this guidance, we quickly came up with a two-part technical interview that is fairly specific to the Front End, however, the general idea behind each interview is applicable to any technical problem if I may be so bold.
-
-### The Technical Round
 
 The full steps for our interview process are as follows:
 
 1. Recruiting screen / employee referral
 2. Hiring manager screen
 3. Technical Round
-4. Company Pitch
-5. Offer
+4. Offer
+
+### The Technical Round
 
 Our technical round has two interviews in total. The first is our coding challenge. The coding interview is one of the most rightfully maligned in our industry. Many, I feel, do this completely backward - including the big names. They're typically a pass/fail scenario where if you miss one minor trick question you're out of contention. They're typically a painful process, something to be feared. Even with all that negative, and more that I don't have time to list, this process doesn't find the best writers of code. Instead it finds those that are lucky because they studied that very problem recently, or have studied a particular company's hiring process to game the system.
 
 Our coding challenge is designed with our main goals in mind, but it has its own specific goals as well:
 
-* Find out a candidate's technical seniority.
-* Find out what it's like to pair with the candidate on an unfamiliar codebase.
+- Find out a candidate's technical seniority.
+- Find out what it's like to pair with the candidate on an unfamiliar codebase.
 
 We start by sending a repository over to the candidate ahead of the interview. We do this not to have them work on it, but to have them get it installed and up and running so we don't waste time on that during the interview. The more studious of our candidates pour through the code to get familiar with its structure, and test out the UI to see the experience - this isn't a bug in the system - it's what we want our candidates to do! We don’t want them to do any work outside of the interview, we feel like the hour spent in this interview is enough of an ask of their time, and we don't want them spending a weekend on a coding challenge (or worse).
 
@@ -65,7 +64,7 @@ There are also three phases in this interview:
 
 We give them a screenshot of a slightly complicated UI and we just talk about it. We ask them to let us know how they'd build it, with what technologies, and why. We have another developer in the interview, but also we have a product manager or designer in as well so we get the full experience. This conversation can sometimes be short if the candidate is more on the junior side of the spectrum, so our interviewers have a list of prodding questions to bring out the knowledge if they're having difficulty.
 
-The curve-ball comes at the end of the first phase as things start to wind down, this typically takes anywhere from 10-30 minutes to get to. We provide an updated image of the UI which has been iterated on by design based on feedback from both customers and user data. We provide the feedback and data, then  go right back into have the same discussion with these new points.
+The curve-ball comes at the end of the first phase as things start to wind down, this typically takes anywhere from 10-30 minutes to get to. We provide an updated image of the UI which has been iterated on by design based on feedback from both customers and user data. We provide the feedback and data, then go right back into have the same discussion with these new points.
 
 We're particularly looking out for what questions the candidate has about the UI and the design in general. What are the red flags they see, or don't see? Can they confidently answer questions from a product manager or designer based on what little they know? This is all something we do on a day-to-day basis, especially the more senior your title.
 
@@ -79,9 +78,9 @@ Our company uses a wiki platform for all of its documentation. It’s something 
 
 Our documentation needed to do the following:
 
-* Explain in detail what the goals of the interview are.
-* Let the interviewer know what their responsibilities are within the interview.
-* Show in detail the objectives of the candidate.
+- Explain in detail what the goals of the interview are.
+- Let the interviewer know what their responsibilities are within the interview.
+- Show in detail the objectives of the candidate.
 
 Our coding challenge documentation has instructions for sharing the repository, what to do during introductions, general tips on running a good interview, ways they can help someone that doesn’t vocalize while they are coding, and finally detailed objectives on what each phase of the interview will be for the candidate. It instructs how to communicate these objectives, letting them know about the problems built into the codebase, and any other details we felt were helpful.
 
@@ -106,13 +105,14 @@ Additionally, as a hiring manager you have a choice between two conversations:
 
 Which would you like?
 
-***
+---
 
 Edits:
+
+2022/03/01 - removed the "company pitch" from the interview process, we're no longer required to do it, but it remains an option should the candidate want it
 
 2021/08/20 - minor grammatical improvements, additional “We now have a well-documented” paragraph summary I felt was missing.
 
 2021/09/01 - minor grammatical improvements
 
 2021/09/09 - minor grammatical improvements
-
