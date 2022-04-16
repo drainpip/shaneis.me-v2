@@ -70,7 +70,7 @@ We're particularly looking out for what questions the candidate has about the UI
 
 ### Documentation
 
-One thing I can say with my 20+ years of experience in tech: we don’t write things down enough. We consistently rely upon tribal knowledge, or walking-talking-SPOFs that are our most senior employees. If documentation for the most critical systems at a company can be sparse, it’s doubly so for hiring and onboarding.
+One thing I can say with my 20+ years of experience in tech: we don’t write things down enough. We consistently rely upon institutional knowledge, or walking-talking-SPOFs that are our most senior employees. If documentation for the most critical systems at a company can be sparse, it’s doubly so for hiring and onboarding.
 
 Arguably one of the best ways of solving the problems of truly scaling a group of people up in number is through asynchronous communication. Publicly available documentation that is freely editable, eg. in a wiki, seems to be the best way of doing it. When we started the enterprise of revamping our interview process, we wanted to make sure that it wouldn’t be lost when people inevitably changed roles, or leave the company.
 
@@ -108,6 +108,8 @@ Which would you like?
 ---
 
 Edits:
+
+2022/04/16 - Adjusted wording for institutional knowledge
 
 2022/03/01 - removed the "company pitch" from the interview process, we're no longer required to do it, but it remains an option should the candidate want it
 
