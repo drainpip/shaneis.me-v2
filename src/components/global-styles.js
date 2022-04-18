@@ -130,6 +130,27 @@ const globalCSS = css`
   a.anchor {
     border-bottom: 0;
   }
+
+  @media screen and (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      color: white;
+    }
+
+    a {
+      color: #90E0EF;  
+      &:visited {
+        color: #00B4D8;
+      }
+    }
+  }
 `;
 
 const GlobalStyles = () => <Global styles={globalCSS} />;

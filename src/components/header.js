@@ -6,6 +6,10 @@ import { css, jsx } from '@emotion/react';
 const header = css`
   background-color: #555;
   text-align: center;
+
+  @media screen and (prefers-color-scheme: dark) {
+    background-color: #999;
+  }
 `;
 
 const headerHeading = css`
@@ -24,6 +28,16 @@ const headerLink = css`
   }
   &:hover {
     color: rgba(255, 255, 255, 0.8);
+  }
+
+  @media screen and (prefers-color-scheme: dark) {
+    color: #333;
+    &:visited {
+      color: #333;
+    }
+    &:hover {
+      color: rgba(51, 51, 51, 0.8);
+    }
   }
 `;
 
