@@ -134,7 +134,7 @@ const globalCSS = css`
   @media screen and (prefers-color-scheme: dark) {
     body {
       background-color: #333;
-      color: #ddd;
+      color: #ededed;
     }
 
     h1,

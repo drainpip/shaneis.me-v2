@@ -10,6 +10,10 @@ const list = css`
 
 const listHeading = css`
   border-bottom: 2px solid #555;
+
+  @media screen and (prefers-color-scheme: dark) {
+    border-bottom-color: #ededed;
+  }
 `;
 const listLink = css`
   border: 1px solid;
