@@ -11,7 +11,11 @@ import Seo from '../components/seo';
 import BlogSeries from './blog-series';
 
 const blogDate = css`
-  text-align: center;
+  text-align: right;
+
+  @media (min-width: 40em) {
+    text-align: center;
+  }
 `;
 
 const blogSection = css`
