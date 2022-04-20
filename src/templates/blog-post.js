@@ -10,9 +10,26 @@ import Seo from '../components/seo';
 
 import BlogSeries from './blog-series';
 
-const textRight = css`
-  text-align: right;
+const blogDate = css`
+  text-align: center;
 `;
+
+const blogSection = css`
+  @media (min-width: 40em) {
+    h2,
+    h3 {
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+      width: 100vw;
+      text-align: center;
+      padding-left: 1.5em;
+      padding-right: 1.5em;
+    }
+  }
+`
 
 const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark;
@@ -26,9 +43,9 @@ const BlogPost = ({ data, pageContext }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description}
       />
-      <section>
+      <section css={blogSection}>
         <h2>{post.frontmatter.title}</h2>
-        <p css={textRight}>{post.frontmatter.date}</p>
+        <p css={blogDate}>{post.frontmatter.date}</p>
         {post.frontmatter.isSeries && (
           <React.Fragment>
             <p>{seriesData.seriesBlurb}</p>
