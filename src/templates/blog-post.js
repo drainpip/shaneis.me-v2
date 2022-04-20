@@ -19,6 +19,8 @@ const blogDate = css`
 `;
 
 const blogSection = css`
+  overflow-x: hidden;
+
   @media (min-width: 40em) {
     h2,
     h3 {
