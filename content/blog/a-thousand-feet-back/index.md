@@ -1,6 +1,6 @@
 ---
 title: 'A Thousand Feet Back'
-description: 'Feedback from a thousand feet back is important to give every few months, here are some tips to do this well. If you put the effort in,  you will see just how quickly all things on your team move in a positive direction.'
+description: 'It's helpful to give a performance review every few months. If you put the effort in, you will see just how quickly all things on your team move in a positive direction.'
 date: '2022-04-20'
 image: ''
 isSeries: false
