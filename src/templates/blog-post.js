@@ -19,20 +19,16 @@ const blogDate = css`
 `;
 
 const blogSection = css`
-  overflow-x: hidden;
-
   @media (min-width: 40em) {
     h2,
     h3 {
       position: relative;
       left: 50%;
       right: 50%;
-      margin-left: -50vw;
-      margin-right: -50vw;
-      width: 100vw;
+      margin-left: -40vw;
+      margin-right: -40vw;
+      width: 80vw;
       text-align: center;
-      padding-left: 1.5em;
-      padding-right: 1.5em;
     }
   }
 `
