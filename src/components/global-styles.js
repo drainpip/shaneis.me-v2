@@ -4,8 +4,8 @@ import React from 'react';
 const globalCSS = css`
   html {
     box-sizing: border-box;
-    font-size: 85%;
-    @media (min-width: 45em) {
+    font-size: 90%;
+    @media (min-width: 40em) {
       font-size: 95%;
     }
     @media (min-width: 75em) {
@@ -58,28 +58,28 @@ const globalCSS = css`
 
   h1 {
     font-size: 2.5em;
-    @media (min-width: 45em) {
+    @media (min-width: 40em) {
       font-size: 4.5em;
     }
   }
 
   h2 {
     font-size: 2em;
-    @media (min-width: 45em) {
+    @media (min-width: 40em) {
       font-size: 3.5em;
     }
   }
 
   h3 {
     font-size: 1.75em;
-    @media (min-width: 45em) {
+    @media (min-width: 40em) {
       font-size: 2.5em;
     }
   }
 
   h4 {
     font-size: 1.25em;
-    @media (min-width: 45em) {
+    @media (min-width: 40em) {
       font-size: 1.75em;
     }
   }
