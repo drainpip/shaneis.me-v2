@@ -1,6 +1,6 @@
 ---
 title: 'A Thousand Feet Back'
-description: 'It's helpful to give a performance review every few months. If you put the effort in, you will see just how quickly all things on your team move in a positive direction.'
+description: 'It can be helpful to give a performance review every few months. If you put the effort in, you will see just how quickly all things on your team move in a positive direction.'
 date: '2022-04-20'
 image: ''
 isSeries: false
