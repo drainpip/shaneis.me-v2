@@ -1,6 +1,6 @@
 ---
 title: 'A Thousand Feet Back'
-description: 'It can be helpful to give a performance review every few months. If you put the effort in, you will see just how quickly all things on your team move in a positive direction.'
+description: 'It can be helpful to give your team a performance review every few months. If you put the effort in, you will see just how quickly all things on your team move in a positive direction.'
 date: '2022-04-20'
 image: ''
 isSeries: false
@@ -43,7 +43,7 @@ Use these as a starting point if you don't already have a framework. I used thes
 
 ### Give Them Something To Chew On
 
-When it's time for you to return the favor of helping your reports with feedback, it's critical for it to be actionable. To me actionable means measurable and testable, all while not skimping on detail that's appropriate at this level of focus. If you want this person to improve over time, even if they're already a high performer, then you need to put in the time and give something for them to chew on. To succeed at this, take detailed notes every week to keep track of the hundreds of details so you can look back upon them and be engaged during all meetings. In other words you need to be "plugged in" to a team and not phoning in your involvement.
+When it's time for you to return the favor of helping your reports with feedback, it's critical for it to be actionable. To me actionable means measurable and testable, all while not skimping on detail that's appropriate at this level of focus. If you want this person to improve over time, even if they're already a high performer, then you need to put in the time and give something for them to chew on. To succeed at this, take detailed notes every week to keep track of the hundreds of details so you can look back upon them, and be engaged during all meetings. In other words you need to be "plugged in" to a team and not phoning in your involvement.
 
 Once you have this appropriately detailed, and actionable, feedback you can continuously check in on this on a regular pace as a touchstone. If you noticed something they did that positively or negatively impacted one of these details you can mention it to them during a 1-on-1. Not only is this helpful to be reminded of these things from time to time, it shows that you're paying attention and are invested in their success.
 
