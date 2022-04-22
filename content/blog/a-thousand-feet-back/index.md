@@ -40,7 +40,7 @@ Be open to hearing about your blind spots, and critical feedback. As the person 
 
 If you're hearing things that sound like "I can't think of anything", ask probing questions to bring something out. Sometimes this reticence is due to lack of trust, sometimes the person simply doesn't want to give you their honest opinion, or doesn't know how. Put on your lawyer hat and cross examine them. Sometimes it's as simple as "so everything is absolutely perfect?"
 
-A colleague came up with [six questions that gauge how satisfied you are with your job](https://blog.robertroskam.com/p/cc1b73b0-428e-45ad-8272-89249922f1c3?s=r):
+A colleague came up with [six questions that gauge how satisfied you are with your job](https://blog.robertroskam.com/p/are-you-satisfied-with-your-job):
 
 - How satisfied are you with your compensation?
 - How satisfied are you with your work-life balance?
