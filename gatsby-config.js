@@ -53,9 +53,8 @@ module.exports = {
                 }
               }
             `,
-            output: "/rss.xml",
+            output: "rss.xml",
             title: "Shane is me blog",
-            match: "^/blog/",
           },
         ],
       },
