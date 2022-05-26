@@ -7,7 +7,7 @@ const PostIndex = () => (
   <StaticQuery
     query={graphql`
       query ListQuery {
-        allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+        allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, limit: 3) {
           edges {
             node {
               fields {

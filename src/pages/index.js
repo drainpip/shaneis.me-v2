@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import PostIndex from '../components/post-index';
 import Seo from '../components/seo';
+import TagsList from '../components/tags-list';
 
 const IndexPage = () => (
   <Layout>
@@ -14,6 +15,8 @@ const IndexPage = () => (
     </p>
 
     <PostIndex />
+
+    <TagsList />
 
     <h4>More?</h4>
 
