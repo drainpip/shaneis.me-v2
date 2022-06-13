@@ -7,6 +7,8 @@ import Seo from '../components/seo';
 const Blog = () => (
   <Layout>
     <Seo title="Blog Index" />
+    <h2>Tags</h2>
+    <p>Choose your own adventure.</p>
     <TagsList />
   </Layout>
 );

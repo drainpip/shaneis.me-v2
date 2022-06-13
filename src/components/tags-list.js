@@ -18,7 +18,6 @@ const TagsList = () => (
     `}
     render={({ allMarkdownRemark }) => (
       <React.Fragment>
-        <h3>Tags</h3>
         <ul>
           {allMarkdownRemark.group.map(tag => (
             <li key={tag.fieldValue}>

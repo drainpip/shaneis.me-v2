@@ -16,9 +16,11 @@ const IndexPage = () => (
 
     <PostIndex />
 
+    <h3>More?</h3>
+
     <TagsList />
 
-    <h4>More?</h4>
+    <h4>About Me</h4>
 
     <p>
       I'm pretty good at my three C's: cars, computers, and canines. I have been
