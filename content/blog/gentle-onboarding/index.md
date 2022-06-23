@@ -66,8 +66,8 @@ Essentially that's it. Recalibrate your expectations, focus on the right things,
 
 Edits:
 
-2022/04/27 - Added link to interview blog, minor grammatical improvements.
-
 2021/12/01 - Adjusted wording for institutional knowledge
 
 2021/10/07 - Added flip side of the coin about Tuckman's group development and how things can go much more slowly without help.
+
+2022/04/27 - Added link to interview blog, minor grammatical improvements.

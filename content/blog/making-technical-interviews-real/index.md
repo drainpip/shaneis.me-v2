@@ -109,12 +109,12 @@ Which would you like?
 
 Edits:
 
-2022/04/16 - Adjusted wording for institutional knowledge
-
-2022/03/01 - removed the "company pitch" from the interview process, we're no longer required to do it, but it remains an option should the candidate want it
-
 2021/08/20 - minor grammatical improvements, additional “We now have a well-documented” paragraph summary I felt was missing.
 
 2021/09/01 - minor grammatical improvements
 
 2021/09/09 - minor grammatical improvements
+
+2022/03/01 - removed the "company pitch" from the interview process, we're no longer required to do it, but it remains an option should the candidate want it
+
+2022/04/16 - Adjusted wording for institutional knowledge
