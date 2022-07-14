@@ -61,7 +61,9 @@ Giving this consistent feedback, nudging, correction, whatever is necessary, sho
 
 Being able to add all of this up and take a thousand steps back, seeing the forest through the trees every few months, is something that can energize your highest potential people. It can show quickly that some people aren't fitting the hole in the puzzle you hired them to fill. Both are a good thing. You want your happy people happier, and your sad people to be happy on another team, or place, or profession as fast as possible.
 
-## Put all of this effort into your next performance review, and every one after, and I promise you will see drastic results quickly. This is one of those things that can turn from anxiously dreading the process, to everyone actually enjoying the process and walking away knowing exactly where they stand. This is a comfort, and one you can provide if you put in the time.
+Put all of this effort into your next performance review, and every one after, and I promise you will see drastic results quickly. This is one of those things that can turn from anxiously dreading the process, to everyone actually enjoying the process and walking away knowing exactly where they stand. This is a comfort, and one you can provide if you put in the time.
+
+---
 
 Edits:
 
