@@ -7,10 +7,10 @@ isSeries: false
 seriesSlug: ''
 seriesBlurb: ''
 seriesEnded: false
-tags: ['personal', 'work']
+tags: ['personal']
 ---
 
-*Note* - This was written before the ongoing pandemic. Much of this has very little to do with remote life during a pandemic, that is a quite different blog post...
+_Note_ - This was written before the ongoing pandemic. Much of this has very little to do with remote life during a pandemic, that is a quite different blog post...
 
 Regularly what you do for a living comes up in conversation. “I write software” is either a conversation starter or killer, depending on the audience. The obvious follow-up is where? “I work remotely for a company in San Francisco...”. The reaction to this is some variation of “you lucky asshole”.
 
@@ -70,7 +70,7 @@ I try to have social time as much as possible with my coworkers. I like to have 
 
 These things help me try to introduce some of the good aspects of being on-site vs. remote, while maintaining all the good things of being remote! I do still miss sharing a physical space, but, for me, the benefits far outweigh anything else.
 
-***
+---
 
 Edits:
 
