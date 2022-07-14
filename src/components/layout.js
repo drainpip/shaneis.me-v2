@@ -46,8 +46,7 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <main css={main}>{children}</main>
         <footer css={footer}>
-          &copy; {new Date().getFullYear()} &bull;{' '}
-          <Link to="/colophon">Colophon</Link>
+          Made in California for global consumption.
         </footer>
       </React.Fragment>
     )}
