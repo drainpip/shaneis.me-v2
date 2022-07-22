@@ -40,14 +40,12 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <React.Fragment>
         <GlobalStyles />
         <Header siteTitle={data.site.siteMetadata.title} />
         <main css={main}>{children}</main>
-        <footer css={footer}>
-          Made in California for global consumption.
-        </footer>
+        <footer css={footer}>Made in California for global consumption.</footer>
       </React.Fragment>
     )}
   />

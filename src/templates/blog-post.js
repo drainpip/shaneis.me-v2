@@ -31,7 +31,7 @@ const blogSection = css`
       text-align: center;
     }
   }
-`
+`;
 
 const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark;
@@ -68,7 +68,7 @@ const BlogPost = ({ data, pageContext }) => {
         )}
         <h4>Posts Like This</h4>
         <ul>
-          {post.frontmatter.tags.map(tag => (
+          {post.frontmatter.tags.map((tag) => (
             <li key={tag}>
               <Link to={`/blog/${tag}`}>{tag}</Link>
             </li>

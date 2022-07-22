@@ -19,7 +19,7 @@ const TagsList = () => (
     render={({ allMarkdownRemark }) => (
       <React.Fragment>
         <ul>
-          {allMarkdownRemark.group.map(tag => (
+          {allMarkdownRemark.group.map((tag) => (
             <li key={tag.fieldValue}>
               <Link to={`/blog/${tag.fieldValue}`}>
                 {tag.fieldValue} - {tag.totalCount} post

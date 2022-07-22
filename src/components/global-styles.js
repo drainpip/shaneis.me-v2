@@ -145,9 +145,9 @@ const globalCSS = css`
     }
 
     a {
-      color: #90E0EF;  
+      color: #90e0ef;
       &:visited {
-        color: #00B4D8;
+        color: #00b4d8;
       }
     }
   }
