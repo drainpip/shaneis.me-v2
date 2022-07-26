@@ -52,4 +52,4 @@ Hearing all of this, especially if you're six years old, management might seem l
 
 Edits:
 
-2021/09/1 - Rearranged the ending thanks to some feedback (TY KR); added a note about jumping into politics isn't a bad thing, but a necessary one; more context on 1:1s
+2022/07/26 - Rearranged the ending thanks to some feedback (TY KR); added a note about jumping into politics isn't a bad thing, but a necessary one; more context on 1:1s
