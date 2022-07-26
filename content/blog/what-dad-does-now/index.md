@@ -24,7 +24,7 @@ I've officially been an engineering manager in title and duties for a bit over a
 
 I have two teams with direct reports that work outside the normal squad on two separate projects. There's a lot of coordination that needs to take place, as well as simply learning what people have been up to and what challenges they're facing. I'm constantly thinking about my people and where they are in their careers, their current projects, their personal lives, and all the myriad other factors that go into human relationships.
 
-To keep up with this on an individual level, I've found that the 1:1 weekly meeting with each person is one of the most important things I can do. My team quickly learns that this is the case when I consistently tell them that my time is their time. Take as much of it as you need. It's my job to be interrupted with sticky situations around the edges where logic starts to break down. By consistently showing my people how important their time is to me I unlock a level of trust that I hope allows us to accomplish anything, including the difficult stuff.
+To keep up with this on an individual level, I've found that the 1:1 weekly meeting with each person is one of the most important things I can do. My team quickly learns that this is the case when I consistently tell them that my time is their time. Take as much of it as you need. It's my job to be interrupted with sticky situations around the edges where logic starts to break down. By consistently showing my people how important their time is to me I unlock a level of trust that I hope allows us to accomplish anything, including the difficult stuff. This seems to be the best way of understanding my team's needs and motivations. So far, it's been the secret sauce to moving the needle in ways that haven't been done for their careers to date.
 
 This does mean I'm in a lot of meetings, especially 1:1's. There are days that I'm amped for it, others not so much. I'm regularly much more exhausted at the end of each day than when I was writing code. The grind is real here, and it's important to acknowledge. Pushing through the grind to make those human connections is something I'm getting better at with time and experience.
 
@@ -40,10 +40,16 @@ I've already made mistakes that have affected people's lives in a way I didn't i
 
 ### This is the game
 
-Working with a group of humans toward a common goal is going to involve politics, no matter how many times we try to deny it. Those that are good at this will excel at management and leadership. This isn't something that people like to hear, politics is a dirty word, but if you run away from it then you and those that you lead be left behind. You've got to play the game.
+Working with a group of humans toward a common goal is going to involve politics, no matter how many times we try to deny it. Those that are good at this will excel at management and leadership. This isn't something that people like to hear, politics is a dirty word because of professional politicians, but if you run away from it then you and who you lead be left behind. You've got to play the game. This isn't a bad thing, this is how you navigate the waters of leadership.
 
 I don't care what hoops I have to jump through to keep my people fulfilled with their career. I'm going to bend to all the seemingly arbitrary processes and jump over all the hurdles placed for what feels like the sole purpose of making it hard. I'm going to win over the hearts and minds of decision makers in leadership and HR by playing their game well. From time to time I'll pick a battle to stand my ground when I think it would help, removing any hurdles for those coming behind me raises all boats. I do all these things because I realize this game is the only path to success for my team, if I want them to get what they need out of their jobs.
 
+If you're not willing or able to stand with your team to play the game, and make the sacrifices necessary to take the responsibility you have deadly serious, the damage you might cause will negatively affect many people. Sometimes in career or life altering ways.
+
 Hearing all of this, especially if you're six years old, management might seem like a shit job. It's not easy to be good at, but the reward for seeing people on my team grow by leaps and bounds far exceeds any discomfort I have along the way. I can help change people's lives in not-so-insignificant ways for the better if I take a great deal of care with that responsibility. That alone makes it all worth it.
 
-If you're not willing or able to stand with your team to play the game, and make the sacrifices necessary to take the responsibility you have deadly serious, the damage you might cause will negatively affect many people. Sometimes in career or life altering ways.
+---
+
+Edits:
+
+2021/09/1 - Rearranged the ending thanks to some feedback (TY KR); added a note about jumping into politics isn't a bad thing, but a necessary one; more context on 1:1s
