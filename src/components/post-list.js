@@ -19,6 +19,7 @@ const listLink = css`
   border: 1px solid;
   display: inline-block;
   padding: 2em 1.5em;
+  position: relative;
   width: 100%;
 
   > h3 {
@@ -37,6 +38,11 @@ const listLink = css`
     margin-top: 2em;
   }
 `;
+const date = css`
+  position: absolute;
+  top: 2px;
+  right: 6px;
+`
 
 const PostList = ({ posts, heading }) => (
   <React.Fragment>
@@ -45,7 +51,7 @@ const PostList = ({ posts, heading }) => (
       {posts.edges.map(({ node }) => (
         <Link to={node.fields.slug} css={listLink} key={node.fields.slug}>
           <h3>{node.frontmatter.title}</h3>
-          <span>{node.frontmatter.date}</span>
+          <span css={date}>{node.frontmatter.date}</span>
           <p>{node.frontmatter.description}</p>
         </Link>
       ))}
