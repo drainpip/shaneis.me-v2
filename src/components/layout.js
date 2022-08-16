@@ -2,7 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { css, jsx } from '@emotion/react';
-import { StaticQuery, Link, graphql } from 'gatsby';
+import { StaticQuery, graphql } from 'gatsby';
 
 import Header from './header';
 import GlobalStyles from './global-styles';
