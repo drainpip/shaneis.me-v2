@@ -45,7 +45,7 @@ const Layout = ({ children }) => (
         <GlobalStyles />
         <Header siteTitle={data.site.siteMetadata.title} />
         <main css={main}>{children}</main>
-        <footer css={footer}>Made in California for global consumption.</footer>
+        <footer css={footer}>Made in California.</footer>
       </React.Fragment>
     )}
   />
