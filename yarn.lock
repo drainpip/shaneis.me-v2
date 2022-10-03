@@ -5400,10 +5400,10 @@ gatsby-remark-autolink-headers@^5.22.0:
     mdast-util-to-string "^2.0.0"
     unist-util-visit "^2.0.3"
 
-gatsby-remark-prismjs@^6.22.0:
-  version "6.22.0"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-6.22.0.tgz#ff55a10cefe33b99b456a4d78bf936010748dba6"
-  integrity sha512-av/GsYOf1L+e+FrXkTZupQdyhmNfXk3nHnd+zJ97fIz6si7nle2T8UDlWXJ3472g0uadpe39KH+VkdpQn4xDzQ==
+gatsby-remark-prismjs@^6.24.0:
+  version "6.24.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-6.24.0.tgz#728455be1986ae55f52563ad034bf9971bbcd976"
+  integrity sha512-xI8BrjbKHJHftfVVyIxmPMuyHX1kU+dHZrpOYjdTfOw8fv3jvR3cKUqZDCBy0pIRMYdPJUPMwUcggAhbtBiaEw==
   dependencies:
     "@babel/runtime" "^7.15.4"
     parse-numeric-range "^1.2.0"
