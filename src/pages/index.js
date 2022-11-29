@@ -33,10 +33,8 @@ const IndexPage = () => (
 
     <p>
       I have a <a href="https://github.com/drainpip">Github</a> profile for you
-      to check out, my work history over on{' '}
-      <a href="https://www.linkedin.com/in/shaneduff/">LinkedIn</a>, and if
-      you'd like to see me <a href="http://twitter.com/drainpip">unfiltered</a>{' '}
-      have at it.
+      to check out, and my work history over on{' '}
+      <a href="https://www.linkedin.com/in/shaneduff/">LinkedIn</a>.
     </p>
   </Layout>
 );
