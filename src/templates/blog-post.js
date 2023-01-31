@@ -82,36 +82,34 @@ const BlogPost = ({ data, pageContext }) => {
 
 export default BlogPost;
 
-export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!, $seriesSlug: String) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
-      frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        description
-        isSeries
-        tags
-        title
-      }
+export const pageQuery = graphql`query BlogPostBySlug($slug: String!, $seriesSlug: String) {
+  markdownRemark(fields: {slug: {eq: $slug}}) {
+    html
+    frontmatter {
+      date(formatString: "MMMM DD, YYYY")
+      description
+      isSeries
+      tags
+      title
     }
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: ASC }
-      filter: { frontmatter: { seriesSlug: { eq: $seriesSlug } } }
-    ) {
-      totalCount
-      edges {
-        node {
-          fields {
-            slug
-          }
-          frontmatter {
-            description
-            seriesSlug
-            seriesBlurb
-            seriesEnded
-          }
+  }
+  allMarkdownRemark(
+    sort: {frontmatter: {date: ASC}}
+    filter: {frontmatter: {seriesSlug: {eq: $seriesSlug}}}
+  ) {
+    totalCount
+    edges {
+      node {
+        fields {
+          slug
+        }
+        frontmatter {
+          description
+          seriesSlug
+          seriesBlurb
+          seriesEnded
         }
       }
     }
   }
-`;
+}`;

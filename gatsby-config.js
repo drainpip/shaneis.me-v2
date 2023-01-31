@@ -35,24 +35,22 @@ module.exports = {
                 })
               })
             },
-            query: `
-              {
-                allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
-                  nodes {
-                    frontmatter {
-                      date
-                      description
-                      title
-                    }
-                    html
-                    fields {
-                      slug
-                    }
-                    excerpt
-                  }
-                }
-              }
-            `,
+            query: `{
+  allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
+    nodes {
+      frontmatter {
+        date
+        description
+        title
+      }
+      html
+      fields {
+        slug
+      }
+      excerpt
+    }
+  }
+}`,
             output: "rss.xml",
             title: "Shane is me blog",
           },
