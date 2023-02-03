@@ -1,7 +1,7 @@
 ---
 title: 'Expect No Loyalty'
-description: 'A lot of words are used to describe times like this that let companies ignore the humans that make it possible for them to exist, and toss them away when times are tough but that is all it is. Navigating this when managing humans will likely be the hardest thing you do.'
-date: '2023-01-25'
+description: 'Do not be loyal to any employer. They do nothing to earn it, they have none for you. Companies talk about people being their most important asset, but this is only true while they have no choice. Do what you need to take care of yourself, your career, and your family. Leapfrog your way through your career and feel no guilt.'
+date: '2023-02-03'
 image: ''
 isSeries: false
 seriesSlug: ''
@@ -26,17 +26,24 @@ The unintended, or perhaps intended, consequence is to leapfrog your entire care
 
 ### Failure without consequences
 
-- times like these
-- hardest thing you can do as a manager, which is some small percentage of how bad it feels on the other side of the conversation
-- complete and total failure in all things a company can fail at
-- act like your position can be removed as soon as numbers go sideways and protect yourself
-- failure in leadership has very few consequences
-- how it feels in the weeks after
+The ebb and flow of capitalism is built right in, you're welcome. There are always winners and losers when things don't go as planned. Times like these tend to err on the side of "surprise leadership team, you horribly overestimated that metric you bet the farm on!". When those very leaders finally make the decision to "reduce workforce", or whatever they're calling firing a percentage of your people these days, I'm sure it's a difficult decision. Most probably try other things before going to that option. But when it's over they say they take full responsibility for bringing us to failure, but few take any consequences.
 
-### This is not the way
+My personal philosophy at work is to foster a no-blame culture. Making mistakes at work can be easily fixed if you own it, learn from it, and share it so that others might glean some sliver to help them in the future. As a software developer, a good mistake might take down production for a bit (or a long bit). The whole team can get together and find out how we could have discovered the issue earlier, and how can we block people from making the same mistake again. As a manager when I make mistakes, and I have, generally they have to be tended to in private. However in the times that I've made an error publicly or said something wrong, I circle back and own it while giving credit to those that helped fix me to make sure trust is maintained.
 
-- how to keep people happy?
-- how to keep people challenged?
-- manage from onboarding to offboarding, be part of the conversation during the end of their role
-- healthy teams will celebrate the next step in their teammates career
-- bring me along
+If you're in a leadership team, whether C-Suite, VPs, GMs, etc., you are no different. Did the strategic bet you made two quarters ago fall through causing another reorganization? Get out in front of it and take the heat away from front-line managers by getting out in the open and answering to the entire company. The worse the mistake, the more open and vulnerable you'll need to be so that you can hope your team comes back around to trusting you again. When you take your company down a road that requires a significant portion of the people doing your work to be cut out without warning, this is coming right up to gross negligence. There is not enough transparent clear communication and genuflection that you can do to earn trust back. If you send out an email effectively saying "I take full responsibility" and nothing else, you've failed yet again. When times like these no longer force people to work for you due to the current market, you'll lose them all.
+
+Those taking the consequences of your failure are those that came to work for you and do the work you asked them to do. These are the people that will watch you be rewarded with higher stock prices and bonuses for saving shareholders some money while they interview for months without end. For those that survived back at work, things will feel surreal for a time, but the never ending list of tasks will eventually blur that strange feeling away into something a new normal. Except now perhaps they're starting to reply to recruiters because nothing is the same. All the talk about how "we're a family" and the myths of big tech culture are eroded away by receiving an email letting you know you're no longer needed.
+
+### Sailing into the wind
+
+In times like these how does one manage a team successfully? To be frank, I'm still figuring that out.
+
+As a baby manager, I used to say that so far I haven't had to do anything hard. What I meant by that was I have teams of people that are highly motivated and decently paid building cool things. There wasn't much I had to do other than make sure projects were buttoned up and the odd breakdown in logic was handled, normal stuff. Recently though, I did have to do something hard. I was tasked with letting someone go during a layoff. It affected me enough that I had difficulty sleeping leading up to the meeting for several days and I still had a job at the end of the meeting.
+
+Survivor's guilt crept up quickly, as I think it does for everyone who survived the cut. In some ways you can manage a layoff similarly to other difficult events that effect everyone: transparency, open communication, commiseration, the list goes on. Yet it still hits different. Everyone starts to question what could have been done differently, "what if's" start fluttering through your mind.
+
+Some might say to double down on the work, the minutia will save your mind from spinning too much. That might work for some, but I went the opposite tack with my teams. There was communication and commiseration of course, but there was also space given to reset and reflect. Time off was encouraged, and I modeled this by taking time off myself. I made sure that while I was off I was disconnected so that I could also reset and reflect.
+
+Upon our return I spoke to each of my people individually and let them know that I have chosen to reset my expectations and desires with the company so that I take a longer term view and check in every six months or so to ensure positive changes are happening - however slow they might be. I encouraged them to do the same, however I'm sure to point out that if this is impossible for whatever reason I fully support their desire to take care of themselves first and foremost because of what we witnessed. I'm happy to be your manager from onboarding to offboarding. If you need help I'll do anything in my power to make sure the next stage of your career is fantastic, whether it's with me or not. I'll share my network, give tips on what to look for in a job req, or write a letter of recommendation.
+
+I end the conversation by looking forward assuming they will stay. These are the things we will have fun together building, here's where we can take your career together. We do these things in spite of the company sometimes. We do these things because they are right for us at this moment, and gives us some satisfaction in ourselves. We can be proud of the things we do with our teammates regardless of the company we happen to all randomly work for. This is good enough for me, I expect no loyalty.
