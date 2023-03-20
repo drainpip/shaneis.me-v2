@@ -39,7 +39,7 @@
     "predeploy": "yarn build -- --prefix-links"
   },
   "devDependencies": {
-    "prettier": "^2.7.1"
+    "prettier": "^2.8.5"
   },
   "repository": {
     "type": "git",
