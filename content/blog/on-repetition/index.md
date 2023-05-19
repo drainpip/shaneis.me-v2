@@ -7,7 +7,7 @@ isSeries: false
 seriesSlug: ''
 seriesBlurb: ''
 seriesEnded: false
-tags: ['management', 'quick-tip']
+tags: ['management']
 ---
 
 I repeat things a lot as a manager, and it’s not something I realized before I jumped in a little over six months ago.

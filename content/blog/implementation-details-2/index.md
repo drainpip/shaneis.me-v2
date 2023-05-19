@@ -5,7 +5,7 @@ date: '2019-02-27'
 image: ''
 isSeries: true
 seriesSlug: 'implementation-details'
-tags: ['code', 'meta']
+tags: ['meta']
 ---
 
 #### Assumptions:
