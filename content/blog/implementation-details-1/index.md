@@ -7,7 +7,7 @@ isSeries: true
 seriesSlug: 'implementation-details'
 seriesBlurb: 'I tend to learn by doing, like many, so as the winds of change started moving toward a revival of personal websites/blogs I decided to hop on the bandwagon and learn about the new hotness while I was at it. Oh, and I suppose I wanted to write more as a personal goal.'
 seriesEnded: false
-tags: ['code', 'meta']
+tags: ['meta']
 ---
 
 #### Assumptions:
