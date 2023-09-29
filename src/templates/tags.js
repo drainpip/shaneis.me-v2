@@ -34,24 +34,26 @@ Tags.propTypes = {
 
 export default Tags;
 
-export const pageQuery = graphql`query ($tag: String) {
-  allMarkdownRemark(
-    limit: 1000
-    sort: {frontmatter: {date: DESC}}
-    filter: {frontmatter: {tags: {in: [$tag]}}}
-  ) {
-    totalCount
-    edges {
-      node {
-        fields {
-          slug
-        }
-        frontmatter {
-          date(formatString: "MMMM Do YYYY")
-          description
-          title
+export const pageQuery = graphql`
+  query ($tag: String) {
+    allMarkdownRemark(
+      limit: 1000
+      sort: { frontmatter: { date: DESC } }
+      filter: { frontmatter: { tags: { in: [$tag] } } }
+    ) {
+      totalCount
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM Do YYYY")
+            description
+            title
+          }
         }
       }
     }
   }
-}`;
+`;

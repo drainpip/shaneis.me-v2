@@ -42,7 +42,7 @@ const date = css`
   position: absolute;
   top: 2px;
   right: 6px;
-`
+`;
 
 const PostList = ({ posts, heading }) => (
   <React.Fragment>

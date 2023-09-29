@@ -3,14 +3,19 @@ import { StaticQuery, Link, graphql } from 'gatsby';
 
 const TagsList = () => (
   <StaticQuery
-    query={graphql`query TagQuery {
-  allMarkdownRemark(limit: 2000, filter: {frontmatter: {tags: {ne: ""}}}) {
-    group(field: {frontmatter: {tags: SELECT}}) {
-      fieldValue
-      totalCount
-    }
-  }
-}`}
+    query={graphql`
+      query TagQuery {
+        allMarkdownRemark(
+          limit: 2000
+          filter: { frontmatter: { tags: { ne: "" } } }
+        ) {
+          group(field: { frontmatter: { tags: SELECT } }) {
+            fieldValue
+            totalCount
+          }
+        }
+      }
+    `}
     render={({ allMarkdownRemark }) => (
       <React.Fragment>
         <ul>
