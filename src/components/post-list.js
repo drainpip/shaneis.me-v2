@@ -16,14 +16,34 @@ const listHeading = css`
   }
 `;
 const listLink = css`
-  border: 1px solid;
+  background-color: #555;
+  box-shadow: 0.5rem 0.5rem #222;
+  color: #fff;
+  &:visited {
+    color: #fff;
+  }
   display: inline-block;
   padding: 2em 1.5em;
   position: relative;
+  text-decoration: none;
   width: 100%;
+
+  @media screen and (prefers-color-scheme: dark) {
+    background-color: #999;
+    box-shadow-color: #000;
+    color: #444;
+    &:visited {
+      color: #444;
+    }
+  }
 
   > h3 {
     margin-top: 0;
+    color: #fff;
+
+    @media screen and (prefers-color-scheme: dark) {
+      color: #333;
+    }
   }
 
   > p {
@@ -31,7 +51,11 @@ const listLink = css`
   }
 
   &:hover {
-    background-color: rgba(57, 204, 204, 0.1);
+    background-color: rgba(0, 0, 0, 0.8);
+    
+    @media screen and (prefers-color-scheme: dark) {
+      background-color: rgba(256, 256, 256, 0.8);
+    }
   }
 
   & + & {
