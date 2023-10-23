@@ -5799,15 +5799,15 @@ gatsby-plugin-emotion@^8.12.0:
     "@babel/runtime" "^7.20.13"
     "@emotion/babel-preset-css-prop" "^11.11.0"
 
-gatsby-plugin-feed@^5.12.0:
-  version "5.12.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-5.12.0.tgz#2c6c0d700543a1cd5454626bd4d451ae4e416a5a"
-  integrity sha512-u5zQiD3OMoGRiO1w3VZXtXxoahxbz/nIXSGIG9Se4h6yFLdry5ayySL5+lmuTf4ShrILCirfpqVblJCqfP2iow==
+gatsby-plugin-feed@^5.12.2:
+  version "5.12.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-5.12.2.tgz#e47383e17164db4ee27a31bf1d5ffd58830d88c4"
+  integrity sha512-GoUzqMRhLxlQByATVJqp8zKK/T3RylPKQ/6Y5njqtwFlUTPL8NdghqMinXFY/7KHPv6NSQJNcSsd6oVX54SasA==
   dependencies:
     "@babel/runtime" "^7.20.13"
     common-tags "^1.8.2"
     fs-extra "^11.1.1"
-    gatsby-plugin-utils "^4.12.0"
+    gatsby-plugin-utils "^4.12.2"
     lodash.merge "^4.6.2"
     rss "^1.2.2"
 
@@ -5883,10 +5883,10 @@ gatsby-plugin-typescript@^5.12.0:
     "@babel/runtime" "^7.20.13"
     babel-plugin-remove-graphql-queries "^5.12.0"
 
-gatsby-plugin-utils@^4.12.0, gatsby-plugin-utils@^4.12.1:
-  version "4.12.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-4.12.1.tgz#dcd5bf26b890bdad7fb8d6ca99b87781d1f47c97"
-  integrity sha512-WL8x0E4CkmP1m61aaIa23lhoOOpxH7PIlZCzly2ehcsZmyL/7dxfpm09B/IAkLYbSMzi6Uln1vmQAN7qvBan4A==
+gatsby-plugin-utils@^4.12.0, gatsby-plugin-utils@^4.12.1, gatsby-plugin-utils@^4.12.2:
+  version "4.12.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-4.12.2.tgz#8e6d3ceaca1f485ddf1e7da674b57c067564dd52"
+  integrity sha512-N5d+fxPd7cZ9KeTl0bHF1JM4MDB2hazXbcOI2gxS9rIL0vgbyBT/ffJ9uczNwJwQuGQPOWdXO6eCspjT4zKcqw==
   dependencies:
     "@babel/runtime" "^7.20.13"
     fastq "^1.15.0"
