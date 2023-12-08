@@ -10,6 +10,7 @@ seriesEnded: false
 tags: ['management']
 ---
 
+As someone that was employed to write code, I tend to think in code. Repeatable processes help me when situations become tense, or chaotic, as they often do as humans struggle to build with software. The day-in-day-out grind can cause you to trip up or take shortcuts that are detrimental to your team's health. There are some things that come up quite often due to the natural tension between a company and the engineers it employs, generally you could categorize most of this down to "trying to get more with less". 
 
 Software developers tend to be more expensive and slower to deliver than their counterparts in equally technical, or complex, positions. Anything at scale is hard, basically, software doubly so simply because its so darn good at scaling to the moon and back. Making sure you're prioritizing the right things while you're actively building software, rather than planning or thinking more strategically, is critical. If you don't, your project will at best be more difficult than it needs to be, at worst turns into whatever they're calling Twitter.
 
