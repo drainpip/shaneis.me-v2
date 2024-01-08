@@ -1,6 +1,6 @@
 ---
 title: 'Play The Long Game'
-description: 'Manage people, not productivity. There are so many that have their priorities completely backward when it comes to the day-to-day grind.'
+description: 'Manage people, not productivity. There are so many that have their priorities completely backward when it comes to the leading a team.'
 date: '2023-06-05'
 image: ''
 isSeries: false
