@@ -16,7 +16,7 @@ The foundations of my leadership training start in another life, long ago, with 
 
 The best leaders in the military, and in the civilian world, understand that it's necessary to earn the respect of your team. You cannot lean on rank and title to expect it. Only when you have this respect can you get the most out of a group of people aiming toward a common goal. Authoritarianism is a great shortcut to quick wins, but over the long term it wears people down like a sugar crash. We want to build people up and give them the confidence and trust to own their part of the effort. Teams must be shown a goal and let loose. By standing in the way, or by pointing where they have to go, you're assuming you know better than the people you hired to do the job you wanted them to do. You are not smarter than a team of ground level experts.
 
-### Life before work
+### Life should not balance work
 
 There are some things that happen constantly, and the way my brain works I need to set up an algorithm to handle it. Given a problem with someone I manage, does it involve life outside work? Then life outside work wins. The scope and reasons literally do not matter because I'm thinking in careers, not quarters. Kid's sick? Take the time you need. Trip overseas for a few weeks? Have a blast and send pictures. I never think about a project that will be affected, or timelines that will need to be adjusted.
 
