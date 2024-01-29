@@ -1,7 +1,7 @@
 ---
 title: 'Prioritizing The Grind'
 description: 'It really is easy to let the day-to-day grind get away from you. I think I have a few simple rules that help me make decisions about daily events quickly and maintain the values I like to think bleed through for the team to stay engaged and happy.'
-date: '2024-01-10'
+date: '2024-02-01'
 image: ''
 isSeries: false
 seriesSlug: ''
@@ -84,14 +84,10 @@ switch (whatsHappening) {
 <!-- CODE BLOCK - END -->
 <!-- prettier-ignore-end -->
 
-real life happens at a constant frequency, it should be allowed to, projects and deadlines can always be shifted
+My hot take with being a front line manager is you actually need to put the people that report to you before the priorities of the company. Perhaps other layers of management further up that becomes less important - or even impossible, but in my opinion this is my primary purpose where I am today. In the never ending tug-o-war between ruthless business practices and being human beings, I am the only protector of that group of people against the constant assault of manufactured urgency. Unless someone is literally dying on your table, it's always manufactured urgency.
 
-maintain a strong two-way street in both directions to ensure you always have a good story to tell
+Putting your people's needs as humans with lives first means allowing real life to happen without guilt tripping, or the fear or reprisals. It's simply OK for people to go to an appointment, or take care of a sick kid, or take a vacation, or any of the infinite situations people find themselves in. If you have eight or more direct reports, it will feel like something is always happening - when you have twelve or more something literally always is. Give people support when they need it, ask for vacation pictures, get them excited for parental leave, because all the things they're working on will be fine. Ideally you have built in some time for unexpected issues into your planning, but if you haven't you should be able to tell a reasonable story why an arbitrary deadline has to shift.
 
-gaining the trust of your people any time it's made clear your priority is their wellbeing, not the company
+To be fully successful at this, you'll need to grow your skills at managing up. Constant communication with stakeholders and your chain of bosses is critical. Giving them regular updates, demos, and wins is all I've ever needed to give my teams the space they need to live their lives the way they want (in a non-toxic environment, to be clear).
 
-teams become solidified around shared struggle
-
-Take the side of your people vs. the company
-
-you're not a family, don't try to be one, be compassionate humans and allow everyone the space and separation from work whenever they need
+By doing all of this, handling the day-to-day with the right mindset will unlock levels of trust with your team you might never have achieved before. Teams of people become solidified around the shared struggle because everyone is arm-in-arm and moving forward because of that trust. Allow for space to collaborate and be human, while focusing on predictability for the best possible outcome. Teams that have this leadership will be more fun, and more effective even in the middle of the grind.
