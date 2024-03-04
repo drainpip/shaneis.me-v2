@@ -5,7 +5,7 @@
   "version": "2.0.1",
   "author": "Shane Duff <me@shaneis.me>",
   "dependencies": {
-    "@emotion/react": "^11.11.1",
+    "@emotion/react": "^11.11.4",
     "gatsby": "^5.12.6",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-emotion": "^8.12.0",
