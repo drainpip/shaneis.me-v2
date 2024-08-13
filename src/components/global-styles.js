@@ -102,7 +102,7 @@ const globalCSS = css`
   }
 
   li > ul {
-    margin-top: -1em;
+    margin-top: 1em;
     margin-bottom: 1em;
   }
 
