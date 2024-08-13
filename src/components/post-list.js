@@ -32,7 +32,8 @@ const listLink = css`
     background-color: #999;
     box-shadow-color: #000;
     color: #444;
-    &:visited {
+    &:visited,
+    &:hover {
       color: #444;
     }
   }
