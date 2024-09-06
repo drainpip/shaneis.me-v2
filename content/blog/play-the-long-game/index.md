@@ -34,7 +34,7 @@ Teams of people tend to be able to make much better decisions than you can by yo
 
 You can create a bubble where your team is so well taken care of not only are they fulfilled in their job, but are actually happy to get started working every day. Your goal should be expanding that bubble with every opportunity. Share your successes, help and support others that are like-minded, and this will happen naturally over time.
 
-### Careers not quarters
+### Careers, not quarters
 
 "Not worrying about the deadlines passed down from above sounds pretty good, but that's not how it works in the real world." I'm pretending to hear you say.
 
