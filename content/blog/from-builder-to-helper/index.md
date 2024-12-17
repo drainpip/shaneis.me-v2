@@ -16,9 +16,15 @@ One day they're your peers, the next day you're their boss. There are suddenly p
 
 ### No more technical decisions
 
-- the team makes the decisions, they're the experts
-- to guide, ask questions
-- only interrupt if they're going to touch fire
+You might actually be the most knowledgeable person on your team about the general systems and architecture of the code you've been in ever day on the day of your transition into management. On that day, though, the responsibilities of all technical decisions are no longer yours. You're accountable for all those decisions, but you're no longer responsible for them. I made a conscious and public effort to remove myself from all of these decisions, no matter how small. At the time our engineering organization was all about tech leads, so I placed who I thought would transition best into that role and announced it. I worked with them behind the scenes to ensure they were up to speed on the expectations of that role, and worked with the rest of the team to route all questions normally coming to me to the new person. This took some practice to get right.
+
+If I remained in that role for the team it would have knock-on effects that lead to damaging trust with your team, one of the most important things you must foster as a leader. It shows your team they're not ready to drive, it takes away their agency. It would also give no one else the ability to rise to the challenge of added responsibility, and hopefully do things better than I had. Over time though, as you get more and more disconnected from the code, it'll be actually dangerous for you to make these decisions because you're no longer the expert. Starting this right away, in my opinion, is necessary.
+
+Onboarding a new "tech lead", even if you don't have that role formally, when you transition to management is a boon in more than the obvious ways as well. You'll be swimming - perhaps drowning depending on the state of the team - in new responsibilities on day one. Having someone take that load away from you will a breath of fresh air. This is also your first direct mentorship relationship as a manager, one that's quite different from a peer. It'll give you practice talking about careers and their wants, needs, and goals in this new role. This will be a new skill, and one you'll get much better at over time.
+
+If you do this right, you might find yourself in a position that you might not feel comfortable with: the team going in a direction you disagree with. A strong team doesn't *need* you for any technical decisions, but it doesn't mean it doesn't want your perspective. Of course you could sabotage everything you've built and force them to do what you want, but this breaks all the healthy parts of a team and will reset you back to zero with trust. To influence a team, all you really need to do is ask questions and make suggestions. Raise your hand with the attitude of: I have a point of view here, it could be right or wrong, what do you think? There will be agreement or pushback, but you're still giving the team agency to make the choice with this new information. Don't take it personal if they don't listen, or take all of what you say forward, after all they're the experts doing the work. I've found in general when I do this, the team hears me and brings this new information into the decision itself.
+
+An important side bar which may or may not be obvious. When celebrating these decisions, it's important to use "they" language, or "the team" - they get all the credit when speaking to leadership or anyone outside the team. When talking about these decisions in challenging times, especially if they are controversial or perhaps lead to an outage of some type, it's very important to use "we" language - you're standing with them up against "the man".
 
 ### Rabidly collect personal lives
 
@@ -31,10 +37,11 @@ One day they're your peers, the next day you're their boss. There are suddenly p
 - go to the meeting instead
 - light fires to unblock
 - have the difficult conversations, sometimes asking is all you need
+- don't ask someone to do something you wouldn't do
 
 #### P.S.
 
-I feel very strongly that leaders should constantly learn leadership. It's never done and you'll never been an expert at all aspects of it (or any of it?). There are some great books that I've read that have either solidified my thinking, or have completely unraveled it. I am purposefully trying not to link to Amazon on purpose, however most (or all) of these are there too if you need.
+I feel very strongly that leaders should constantly learn leadership. It's never done and you'll never been an expert at all aspects of it (or any of it?). There are some great books that I've read that have either solidified my thinking, or have completely unraveled it. I am purposefully trying not to link to Amazon on purpose, however I'm sure these are there too if you need.
 
 If you're early in your journey, some of these books may help you with your transition, or even knowing if this transition is right for you before you take the plunge.
 
