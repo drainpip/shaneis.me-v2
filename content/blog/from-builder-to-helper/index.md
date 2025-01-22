@@ -1,7 +1,7 @@
 ---
 title: 'From Builder To Helper'
 description: 'After doing this for several years, I think I understand how to help someone that just started the journey transition into Engineering Management. These are the learnings from things that I changed on day one, and others I wish I changed on day one.'
-date: '2025-01-17'
+date: '2025-01-22'
 image: ''
 isSeries: false
 seriesSlug: ''
@@ -14,7 +14,7 @@ I was ready for it. After more than 20 years of building on the web, I was ready
 
 Well...
 
-One day they're your peers, the next day you're their boss. There are suddenly power dynamics, and responsibilities for human beings. If the weight of it doesn't give you pause, perhaps you're not taking this seriously enough. The awesome responsibility to create an environment for those you're responsible for to thrive is a burden you feel in the early days of being a manager. It can rear its ugly head as sticky personality conflicts, or pay disparities, that are suddenly for you to solve. One day it'll hit you upside the head, and it'll happen randomly for the rest of the time you stay in this role. There are a lot of things you can do to help, but when I look back upon the beginning of my engineering management journey these are things I did right away (or wished I did earlier) to have a better footing.
+One day they're your peers, the next day you're their boss. There are suddenly power dynamics, and responsibilities for human beings. If the weight of it doesn't give you pause, perhaps you're not taking this seriously enough. The awesome responsibility to create an environment for those you're responsible for to thrive is a charge you feel in the early days of being a manager. It can rear its ugly head as sticky personality conflicts, or pay disparities, that are suddenly for you to solve. One day it'll hit you upside the head, and it'll happen randomly for the rest of the time you stay in this role. There are a lot of things you can do to help, but when I look back upon the beginning of my engineering management journey these are things I did right away (or wished I did earlier) to have a better footing.
 
 ### No more technical decisions
 
@@ -26,22 +26,29 @@ Onboarding a new "tech lead", even if you don't have that role formally, when yo
 
 If you do this right, you might find yourself in a position that you won't feel comfortable with: the team going in a direction you disagree with. A strong team doesn't *need* you for any technical decisions, but it doesn't mean it doesn't want your perspective. Of course you could sabotage everything you've built and force them to do what you want, but this breaks all the healthy parts of a team and will reset you back to zero with trust. To influence a team, all you really need to do is ask questions and make suggestions. Raise your hand with the attitude of: I have a point of view here, it could be right or wrong, what do you think? There will be agreement or pushback, but you're still giving the team agency to make the choice with this new information. Don't take it personal if they don't listen, or take all of what you say forward, after all they're the experts doing the work. I've found in general when I do this, the team hears me and brings this new information into the decision itself more often than not.
 
-### The sanctity of 1-on-1's to build trust
+### The sanctity of 1-on-1's
 
 Since a certain famous CEO mentioned he never does 1-on-1's I fear this type of meme will take hold for the wrong reasons. Some of the reasoning behind this is, in my opinion, correct: saying things to the team is better than the individual. In many situations I've found myself leaning in this direction for issues where it makes sense, however I work remotely as does my entire team. In this situation especially, I find manufacturing connections is a necessity because if you don't there is no way to stumble across people for lunch or in between meetings. This is necessary for the human connection, and that human connection is your new job.
 
 I think it's necessary to get to know the people that report to you directly in more than superficial ways. What I mean is more than what they did over the weekend, or how many kids they have. You want to know more than the names of everyone at home, including pets, you want to know what they're up to. You want to act as if you're a close neighbor getting the download on how the family is doing, where they're going on vacation, maybe even get opened up to about challenges or tragedies that happen from time to time. This takes a lot of effort, and you'll get varying success with different people depending on how comfortable they are with sharing. You can help grease the wheels here by modeling this with your own personal life as much as you feel is appropriate.
 
-The goal of this is not to be their friend, it's probably impossible to be someone's boss and friend, but instead to build up a fortress of trust. By knowing your team on more than a superficial level, when something goes wrong it's so much easier to have conversations with full context about what's going on in their lives and how they feel about what's happening at your company. You'll get much more honest answers to your questions. Your team will feel that much safer with you, and because your team definitely talks about you behind your back, with the team as a whole. This works both for technical questions, as well as personal. On the technical side, because they have agency to make those decisions, you'll generally never have to pull hard on the team to get answers to meaty problems. And on the personal side, you'll get news of vacations, new kids, or a window into something that's stressing them out causing work to suffer. These are all amazing win-wins that I feel are only gained when you build up that work of getting to know the people that report to you.
+The goal of this is not to be their friend, it's probably impossible to be someone's boss and friend, but instead to build up a fortress of trust - something that can withstand attacks from the outside. By knowing your team on more than a superficial level, when something goes wrong it's so much easier to have conversations with full context about what's going on in their lives and how they feel about what's happening at your company. You'll get much more honest answers to your questions. Your team will feel that much safer with you, and because your team definitely talks about you behind your back, with the team as a whole. This works both for technical questions, as well as personal. On the technical side, because they have agency to make those decisions, you'll generally never have to pull hard on the team to get answers to meaty problems. And on the personal side, you'll get news of vacations, new kids, or a window into something that's stressing them out causing work to suffer.
+
+By all means, bring most conversations to the entire team, but don't do this at the expense of growing your relationships with those that report to you. If you don't build up that fortress, it doesn't take much of anything to tear that trust down.
 
 ### Do the dirty work
 
-- go to the meeting instead
-- light fires to unblock
-- have the difficult conversations, sometimes asking is all you need
-- don't ask someone to do something you wouldn't do
+Managing teams of people is a lot of work. But I think we've all had managers where we're not exactly sure what they do all day. If the work you do can't be felt by those you lead, even if it's done 100% behind the scenes, you're not doing the dirty work. Although there's a lot of nuance to the job, if we're distilling things that are common responsibilities for leaders anywhere: motivating the team to be engaged in the work, help them when they need helping, and modeling the ideal teammate yourself. This is the work they will see and feel, this is what I'm calling the dirty work of management - not working in Jira all day.
 
-#### P.S.
+Generally, if you're building software that solves interesting problems, or does interesting things, keeping people motivated isn't hard. There are a million things that affect how motivated a team is on a given project and a lot of them you, as a front line manager, can't control. Most of my time actively managing a team's motivation involve making sure everyone on the team understands why we're doing what we're doing. I often go back to repeating the reasons why at various points in the life of a project. The rest is all about making sure the team knows it's trusted to go down the path they find along the way. They need someone to go to bat for them when a planned deadline is busted for good reason, or making sure the culture on the team allows for healthy discussions and disagreements - especially with you.
+
+Sometimes issues you know will affect motivation come down from up above, or maybe you're not building interesting software, or you have several year's of tech debt, on and on. It's even more important to follow the same patterns to motivate the team. Having that culture is invaluable to weather the storms as they come. Setting things up for this during the good times is something I never take for granted.
+
+Helping a team or individual get unstuck when they can't on their own is probably one of the most tangible things you can do as their manager, it's what most people think good management is. I treat my team as my personal stakeholders, when they have an issue I make sure I keep up communication and expectations as if I was reporting to my own boss. I make sure they understand that I understand the problem from their point of view, I let them know when they can expect to hear something, as well as anything I'm going to try and do. I always follow through on the timeline I set, or give them an updated timeline with reasons why I couldn't meet original expectations. This all sounds familiar because this is classic stakeholder management, this stuff all rhymes like history. This communication + follow through will make you their first stop when they come upon a problem they can't solve themselves.
+
+Go to the meeting, light fires, ask the question, have the difficult conversation, and never ask someone to do something you wouldn't do. Jump in and get your hands dirty with the work your team will see and appreciate. Remember the individual connections to the humans you are responsible for. Trust your team. Doing all these things will make you the helper your team needs, but most importantly wants.
+
+#### Postscript
 
 I feel very strongly that leaders should constantly learn leadership. It's never done and you'll never been an expert at all aspects of it (or any of it?). There are some great books that I've read that have either solidified my thinking, or have completely unraveled it. I am purposefully trying not to link to Amazon, however I'm sure these are there too if you need.
 
